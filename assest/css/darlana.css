@@ -188,7 +188,7 @@
 }
 .heed-logo-ser-icon form div{
     position: relative;
-    width: 100%;
+    width: 90%;
 }
 
 .heed-logo-ser-icon form input[type="search"]{
@@ -246,9 +246,10 @@
 }
 .heart-Wishlist{
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-top: 25px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    margin-top: 20px;
+    margin-right: 10px;
     /* margin-left: 10px; */
 }
 .heart-Wishlist a{
@@ -258,7 +259,7 @@
 .cart-shopping{
     text-align: center;
     padding-right: 10px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     margin-top: 25px;
 
 }
@@ -1051,17 +1052,12 @@ footer .form input{
     border: none;
     outline: none;
     box-shadow: none;
-
-
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
-
-
-color: rgba(0, 0, 0, 0.2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.2);
 
 }
 footer .form input:focus{
@@ -1568,7 +1564,7 @@ margin-right: 30px;
     margin-left: 10px;
 }
 .Prices{
-    width: 275px;
+    width: 100%;
     height: 144px;
     margin-top: 50px;
     background: #F6F7F8;
@@ -1599,23 +1595,20 @@ margin-right: 30px;
     padding-top: 20px;
     padding-left: 10px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 20px;
-/* identical to box height, or 91% */
-
-
-color: #22262A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #22262A;
 }
 .size div{
     margin-top: 10px;
     width: 19%;
-    /* height: 23px; */
     background: #FFFFFF;
     border: 0.3px solid #E70727;
     box-sizing: border-box;
     color: rgba(231, 7, 39, 1);
+    cursor: pointer;
 }
 
 .size .activ-size{
@@ -2969,7 +2962,13 @@ color: #000000;
         display: flex;
         flex-direction: row;
     }
-
+    .app-play a img{
+        width: 100%;
+        margin-right: 10px;
+    }
+    .custum-prodect{
+        display: none;
+    }
     .custum-prodect div .swiper-slide{
         width: 200px;
         margin: auto auto;
@@ -3083,7 +3082,10 @@ color: #000000;
         line-height: 20px;
     }
     .Prices{
-        width: 187px;
+        width: 100%;
+    }
+    .Prices h3{
+        font-size: 10px;
     }
     .caption h5{
         font-size: 8px;
@@ -3209,5 +3211,22 @@ color: #000000;
             line-height: 19px;
             color: rgba(0, 0, 0, 0.5);
             padding-right: 0px !important;
+        }
+
+        footer .form input{
+            width: 65%;
+            height: 48px;
+            background: #C4C4C4;
+            border-radius: 10px 0px 0px 10px;
+            padding: 8px 10px;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, 0.2);
         }
     }

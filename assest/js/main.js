@@ -27,7 +27,12 @@ $(document).ready(function () {
         /* End page Featured Product */
 
 
-
+        $('.size div').on('click', function () {
+          $(this).addClass('activ-size').siblings().removeClass('activ-size');
+      });
+      $('.colors-list li').on('click', function () {
+        $(this).addClass('active-color').siblings().removeClass('active-color');
+    });
   // Requires jQuery
 
 // Initialize slider:
