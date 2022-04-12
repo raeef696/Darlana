@@ -1,0 +1,642 @@
+.navbreadcrumb{
+    width: 100%;
+    height: 38px;
+    background: #E9E9E9;
+}
+
+
+.navbreadcrumb nav ol li a{
+    width: 97px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbreadcrumb nav ol li {
+    line-height: 35px;
+  
+}
+.Sign-up-section{
+    width: 100%;
+    min-height: 1100px;
+}
+
+.Sign-up-section .Sign-up-back{
+    position: absolute;
+    width: 444px;
+    min-height: 950px;
+    left: 777px;
+    top: 300px;
+    border: 0.2px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.Sign-up-back img{
+    margin: 0px 40%;
+    margin-top: 40px;
+
+}
+.Sign-up-section .welcome-our{
+    position: absolute;
+    width: 559px;
+    min-height: 950px;
+    left: 217px;
+    top: 300px;
+    background: #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Sign-up-back .row .col-12 select{
+    width: 394px;
+    height: 40px;
+    left: 811px;
+    top: 913px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+.Sign-up-section .welcome-our div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.Sign-up-section .welcome-our div img{
+
+    margin-top: 50px;
+}
+.Sign-up-section .welcome-our div i{
+    font-size: 32px;
+    padding: 30px 0; 
+}
+.Sign-up-section .welcome-our h5{
+    width: 178px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 58px;
+}
+
+.Sign-up-section .welcome-our p{
+    width: 321px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;    
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Sign-up-back h2{
+    text-align: center;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.Sign-up-back div h5{
+    height: 20px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    padding: 18px 0;
+
+}
+
+.Sign-up-back div p{
+    width: 234px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #797979;
+
+}
+.Sign-up-back .form{
+    margin-left: 32px;
+}
+.Sign-up-back div form .row{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Sign-up-back div form .row select{
+    width: 181px;
+    height: 40px;
+    padding: 8px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(32, 32, 32, 0.3);
+}
+
+.Sign-up-back div input[type=email]{
+    width: 394px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.Sign-up-back div input[type=password]{
+    width: 394px;
+    height: 40px;
+    left: 811px;
+    top: 838px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+.Sign-up-back div .inputCostum{
+    width: 394px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.2);
+}
+/* start shep pont  */
+
+.shep-pont{
+    position: absolute;
+width: 231px;
+height: 231px;
+right: 151.9px;
+top: 107.64px;
+border-radius: 50%;
+z-index: -999;
+background: linear-gradient(180deg, #F69792 37.92%, rgba(196, 196, 196, 0) 100%);
+transform: rotate(10.04deg);
+
+}
+.shep-pont1{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 1344px;
+top: 341px;
+border-radius: 50%;
+background: rgba(246, 151, 146, 0.5);
+
+}
+
+.shep-pont2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1243px;
+    top: 431px;
+    background: rgba(75, 73, 110, 0.5);
+    border-radius: 50%;
+}
+.shep-pont3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1300px;
+    top: 572px;
+    background: rgba(237, 163, 199, 0.7);
+    border-radius: 50%;
+}
+.shep-pont4{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1375px;
+    top: 709px;
+    background: rgba(75, 73, 110, 0.5);    
+    border-radius: 50%;
+}
+
+.shep-pont5{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1263px;
+    top: 822px;
+    border-radius: 50%;
+    background: rgba(97, 149, 181, 0.5);
+}
+.shep-pont6{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1364px;
+    top: 964px;
+    border-radius: 50%;
+    background: rgba(124, 44, 145, 0.5);
+
+}
+.shep-pont7{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1270px;
+    top: 1139px;
+    border-radius: 50%;
+    background: rgba(124, 37, 76, 0.5);
+}
+
+.shepstar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1180.44px;
+    top: 1294px;
+}
+.shep-pont8{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 816.09px;
+    top: 1294.09px;
+    border-radius: 50%;
+    background: rgba(75, 73, 110, 0.5);
+    transform: rotate(90.25deg);
+}
+
+.shep-pont9{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 484.13px;
+    top: 1307.13px;
+    border-radius: 50%;
+    background: rgba(124, 37, 76, 0.5);
+    transform: rotate(90.25deg);
+    z-index: -999;
+
+}
+.shep-circular{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: 70px;
+    top: 1100px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #F69792 0%, rgba(196, 196, 196, 0.726042) 99.99%, rgba(246, 151, 146, 0) 100%);
+    transform: rotate(-142.06deg);
+    z-index: -999;
+}
+.shep-circular1{
+    position: absolute;
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 120px;
+    top: 1150px;
+    background: #FFFFFF;
+    transform: rotate(-134.34deg);
+    border-radius: 50%;
+    z-index: -999;
+}
+.shep-pont10{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 43px;
+    top: 1139px;
+    border-radius: 50%;
+    background: rgba(124, 37, 76, 0.5);
+}
+.shep-pont11{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 137px;
+    top: 964px;
+    border-radius: 50%;
+    background: rgba(124, 44, 145, 0.5);
+}
+.shep-pont12{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 36px;
+    top: 822px;
+    border-radius: 50%;
+    background: rgba(97, 149, 181, 0.5);
+}
+.shep-pont13{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 148px;
+    top: 709px;
+    border-radius: 50%;
+    background: rgba(75, 73, 110, 0.5);
+}
+.shep-pont14{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 73px;
+    top: 572px;
+    border-radius: 50%;
+    background: rgba(237, 163, 199, 0.7);
+}
+.shep-pont15{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 117px;
+    top: 341px;
+    border-radius: 50%;
+    background: rgba(246, 151, 146, 0.5);
+
+}
+.Sign-up-back div form  label{
+    width: 100%;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+.Sign-up-back div form input{
+    width: 181px;
+    height: 40px;
+    padding-left: 8px;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.Sign-up-back div form .fa-eye{
+    position: absolute;
+    /* top: 10%; */
+    cursor: pointer;
+    right: 30px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Sign-up-back div form button{
+    width: 394px;
+    height: 40px;
+    background: #000000;
+    border-radius: 2px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    }
+.Sign-up-back div form span a{
+    position: relative;
+    left: 68.5%;
+}
+
+.Sign-up-back #login {
+    width: 394px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.Sign-up-back span a{
+    width: 35px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;    
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+.Sign-up-back div span a{
+    width: 47px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    text-align: right;
+    }
+
+
+    .shap-login-1{
+    position: absolute;
+    width: 231px;
+    height: 231px;
+    left: 1055px;
+    top: 108px;
+    z-index: -99999;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
+}
+
+    .shap-login-2{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: 100.69px;
+    top: 600px;
+    z-index: -11;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(196, 196, 196, 0.726042) 99.99%, rgba(196, 196, 196, 0) 100%);
+    transform: rotate(47.34deg);
+
+    }
+    .shap-login-2 img{
+        position: absolute;
+width: 213px;
+height: 213px;
+left: 50.87px;
+top: 40.24px;
+border-radius: 50%;
+background: #FFFFFF;
+transform: rotate(47.34deg);
+
+    }
+
+
+    .shap-login-3 img{
+        position: absolute;
+/* width: 50px; */
+height: 170px;
+left: px;
+top: 389px;
+
+    }
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    .shep-pont,
+    .shep-pont1,
+    .shep-pont3,.shep-pont4,.shep-pont5,
+    .shep-pont6,.shep-pont7,.shep-pont2,
+    .shep-pont8,.shep-pont9,.shep-pont10,
+    .shep-pont11,.shep-pont12,.shep-pont13,
+    .shep-pont14,.shep-pont15,.shepstar{
+    display: none;
+    }
+
+    .Sign-up-section .Sign-up-back{
+        position: absolute;
+        width: 175px;
+        height: 610px;
+        left: 49%;
+        top: 300px;
+    }
+    .Sign-up-back img{
+        width: 33px;
+        height: 33px;
+        margin: 0px 40%;
+        margin-top: 40px;
+    
+    }
+    .Sign-up-section .welcome-our{
+        width: 144px;
+        height: 610px;
+        left: 10%;
+
+    }
+    .Sign-up-back form div input{
+        width: 157px;
+        height: 28px;
+        
+    }
+    .Sign-up-back div input[type=email]{
+        width: 157px;
+        height: 28px;
+    }
+    .Sign-up-back .form{
+        margin-left: 2px;
+    }
+    .Sign-up-back div input[type=password]{
+        width: 157px;
+        height: 28px;
+    
+    }
+    .Sign-up-back div .inputCostum{
+        width: 157px;
+        height: 28px;
+    }
+    .Sign-up-back div form .row select{
+        width: 157px;
+        height: 28px;
+    }
+    .Sign-up-back div form button{
+        width: 157px;
+        height: 28px;
+    }
+    .Sign-up-back h2{
+        font-size: 14px;
+    }
+    .Sign-up-back div h5{
+        font-size: 14px;
+
+    
+    }
+    
+    .Sign-up-back div p{
+        font-size: 9px;
+        width: 169px;
+    }
+    .Sign-up-back div form  label{
+        font-size: 10px;
+    }
+    .Sign-up-back div form span a{
+        position: relative;
+        left: 28%;
+    }
+    .Sign-up-back #login {
+        width: 394px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+        margin-top: 10px;
+    }
+    .Sign-up-section .welcome-our div img{
+        width: 131px;
+        height: 108px;
+        
+    }
+    .Sign-up-section .welcome-our h5{
+        width: 104px;
+        height: 20px;    
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        
+        }
+        .Sign-up-section .welcome-our p{
+            width: 109px;
+            height: 40px;            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 10px;            
+            text-align: center;
+        }
+        .Sign-up-section{
+            width: 100px;
+            min-height: 1100px;
+        }
+}
