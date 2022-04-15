@@ -30,6 +30,10 @@
     transition: all .43s ease-in-out;
 
 }
+.nav-aside ul a i,img{
+    padding: 8px;
+
+}
 .nav-aside ul a:hover{
     color: red;
 
@@ -44,8 +48,8 @@
 .nav-aside ul li{
     list-style-type: none;
     margin-left: -30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;

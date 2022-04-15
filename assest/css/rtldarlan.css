@@ -1,0 +1,275 @@
+*{
+    direction: rtl;
+}
+.heed-logo-ser-icon form div input[type="search"]{
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    font-size: 14px;
+    color: rgba(143, 143, 143, 0.5);
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 0px 5px 5px 0px;
+    width: 850px;
+    outline: none;
+    /* position: relative; */
+}
+
+
+.heed-logo-ser-icon form input[type="button"]{
+    margin-top: -10px;
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8.5px;
+    border-left: 1px solid;
+    height: 41.5px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    width: 10%;
+    /* position: absolute; */
+    right: 0%;
+    top: 0px;
+    background: rgba(219, 219, 219, 1);
+    transition: all .34s ease;
+    
+}
+.sub .form input{
+    border-radius: 0px 10px 10px 0px;
+}
+footer .form button{
+
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+@media (min-width:500px) and (max-width:668px) {
+    .heart-Wishlist{
+        font-size: 15px;
+        position: absolute;
+        right:  70%;
+        top: 43px;
+    }
+    .cart-shopping a{
+        position: absolute;
+        right: 430px;
+        font-size: 10px;
+        top: -24px;
+    }
+    .heed-logo-ser-icon form div input[type="search"]{
+        border: 0.5px solid rgba(0, 0, 0, 1);
+        font-size: 14px;
+        color: rgba(143, 143, 143, 0.5);
+        padding: 10px;
+        position: absolute;
+        margin-top: 10px;
+        border-radius: 0px 5px 5px 0px;
+        width: 220px;
+        right: -100%;
+        outline: none;
+    }
+    .heed-logo-ser-icon form input[type="button"]{
+        margin-top: 10.7px;
+        transform: translateX(-170px);
+        width: 50px;
+        border: 1px solid;
+    }
+    .content-header .navbar .navbar-toggler{
+        font-size: 10px;
+        width: 60px;
+        height: 60px;
+        box-shadow: none;
+        border: 0 ;
+        position: none;
+        transform: translateX(-250%);
+        top: -16px;
+    }
+
+    .content-header .cart-shopping{
+        width: 90px;
+        font-size: 8px;
+        box-sizing: border-box;
+        z-index: 999;
+        margin-top: 20px;
+    }
+    .content-header .heart-Wishlist{
+        margin-top: 35px;
+        font-size: 10px;
+    }
+
+}
+@media (min-width:668px) and (max-width:1280px) {
+
+    .heart-Wishlist{
+        font-size: 15px;
+        position: absolute;
+        right:  70%;
+        top: 43px;
+    }
+    .cart-shopping a{
+        position: absolute;
+        right: 550px;
+        font-size: 10px;
+        top: -24px;
+    }
+    .heed-logo-ser-icon form div input[type="search"]{
+        border: 0.5px solid rgba(0, 0, 0, 1);
+        font-size: 14px;
+        color: rgba(143, 143, 143, 0.5);
+        padding: 10px;
+        position: absolute;
+        margin-top: 10px;
+        border-radius: 0px 5px 5px 0px;
+        width: 280px;
+        right: -158%;
+        outline: none;
+    }
+    .heed-logo-ser-icon form input[type="button"]{
+        margin-top: 10.7px;
+        transform: translateX(-200px);
+        width: 50px;
+        border: 1px solid;
+    }
+    .content-header .navbar .navbar-toggler{
+        font-size: 10px;
+        width: 60px;
+        height: 60px;
+        box-shadow: none;
+        border: 0 ;
+        position: none;
+        transform: translateX(-300%);
+        top: -16px;
+    }
+
+    .content-header .cart-shopping{
+        width: 90px;
+        font-size: 8px;
+        box-sizing: border-box;
+        z-index: 999;
+        margin-top: 20px;
+    }
+    .content-header .heart-Wishlist{
+        margin-top: 35px;
+        font-size: 10px;
+    }
+
+}
+@media (min-width:381px) and (max-width:500px) {
+    .heart-Wishlist{
+        font-size: 15px;
+        position: absolute;
+        right:  59%;
+        top: -9px;
+    }
+    .cart-shopping a{
+        position: absolute;
+        right: 230px;
+        font-size: 10px;
+        top: -24px;
+    }
+    .heed-logo-ser-icon form div input[type="search"]{
+        border: 0.5px solid rgba(0, 0, 0, 1);
+        font-size: 14px;
+        color: rgba(143, 143, 143, 0.5);
+        padding: 10px;
+        position: absolute;
+        margin-top: 10px;
+        border-radius: 0px 5px 5px 0px;
+        width: 80px;
+        right: -8%;
+        outline: none;
+    }
+    .heed-logo-ser-icon form input[type="button"]{
+        margin-top: 10.7px;
+        transform: translateX(-75px);
+        width: 50px;
+    }
+    .content-header .navbar .navbar-toggler{
+        font-size: 10px;
+        width: 60px;
+        height: 60px;
+        box-shadow: none;
+        border: 0 ;
+        position: none;
+        transform: translateX(-220%);
+        top: -16px;
+    }
+
+    .content-header .cart-shopping{
+        width: 90px;
+        font-size: 8px;
+        box-sizing: border-box;
+        z-index: 999;
+        margin-top: 20px;
+    }
+    .content-header .heart-Wishlist{
+        margin-top: 35px;
+        font-size: 10px;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:380px){
+    .navbaraccount .navbar-collapse{
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 180px;
+        background-color: #DDD;
+
+    }
+
+    .heart-Wishlist{
+        font-size: 15px;
+        position: absolute;
+        right:  59%;
+    }
+    .cart-shopping a{
+        position: absolute;
+        right: 82%;
+        font-size: 10px;
+        top: 29px;
+    }
+    .heed-logo-ser-icon form div input[type="search"]{
+        border: 0.5px solid rgba(0, 0, 0, 1);
+        font-size: 14px;
+        color: rgba(143, 143, 143, 0.5);
+        padding: 10px;
+        position: absolute;
+        margin-top: 10px;
+        border-radius: 0px 5px 5px 0px;
+        width: 80px;
+        right: -8%;
+        outline: none;
+    }
+    .heed-logo-ser-icon form input[type="button"]{
+        margin-top: 10.7px;
+        transform: translateX(-75px);
+        width: 50px;
+    }
+    .content-header .navbar .navbar-toggler{
+        font-size: 10px;
+        width: 60px;
+        height: 60px;
+        box-shadow: none;
+        border: 0 ;
+        position: none;
+        transform: translateX(-220%);
+        top: -16px;
+    }
+
+    .content-header .cart-shopping{
+        width: 90px;
+        font-size: 8px;
+        box-sizing: border-box;
+        z-index: 999;
+        margin-top: 20px;
+    }
+    .content-header .heart-Wishlist{
+        margin-top: 35px;
+        font-size: 10px;
+    }
+
+}
