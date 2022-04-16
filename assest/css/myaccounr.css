@@ -642,7 +642,7 @@ table tbody tr {
         font-weight: 500;
     }
     .flex-address select{
-        width: 100%;
+        width: 160%;
         height: 48px;
         background: #FFFFFF;
         border: 1px solid rgba(140, 140, 140, 0.7);

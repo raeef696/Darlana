@@ -499,6 +499,52 @@ footer .form button{
 }
 
 @media (min-width:500px) and (max-width:668px) {
+    .sort-items{
+        width: 80%;
+        height: 48px;
+        background: #F6F7F8;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 80px;
+        margin-top: 18px;
+    }
+    .shop-our{
+        width: 345px !important;
+        height: 201px;
+        display: flex;
+        margin-top: 0px;
+        background: linear-gradient(96.64deg, #FF7972 2.3%, rgba(245, 116, 109, 0.63) 79.65%, rgba(205, 80, 73, 0) 100%);
+        border-radius: 2px;
+        flex-direction: column;
+        margin-left: 30px;
+        transform: translate(-10%,0%);
+        position: relative;
+    }
+    .shop-our img{
+        width: 95px;
+        height: 201px;
+    }
+    .shop-our h3{
+        font-size: 16px !important;
+    }
+    .shop-our p{
+        font-size: 10px !important;
+        line-height: 10px;
+        margin: 0;
+        width: 250px;
+        margin-top: -15px;
+        padding: 15px;
+
+    }
+    .shop-our a{
+        width: 120px;
+        margin-top: 30px;
+        /* font-size: 10px !important; */
+        /* line-height: 10px; */
+
+    }
     .login-section{
         padding: 5px;
         margin-top: 50px;

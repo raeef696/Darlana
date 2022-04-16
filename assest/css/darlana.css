@@ -3045,7 +3045,7 @@ color: #000000;
 }
 
 .shoping button{
-    width: 79px;
+    width: 99px;
     height: 38px;
     border: none;
     background: #E70727;
@@ -3333,7 +3333,6 @@ color: #000000;
     .sort-items div h6{
         font-size: 8px;
         width: 45px;
-
     }
 
     .sort-items select{
@@ -3415,7 +3414,6 @@ color: #000000;
             min-height: 569px;
         }
         .shoping button{
-            width: 79px;
             height: 38px;
             border: none;
             background: #E70727;
@@ -4012,6 +4010,34 @@ color: #000000;
 }
 
 
+@media (min-width: 501px) and (max-width: 959px) {
+
+    .Promo-code{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    
+    }
+    .shoping{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-bottom: 3px solid rgba(214, 214, 214, 1);
+        padding: 30px 0px;
+        }
+        .Promo-code{
+            display: flex;
+            margin-left: 0px;
+            margin-top: 10px;
+        
+        }
+
+    }
+
+
+
 
 
 
@@ -4040,4 +4066,94 @@ color: #000000;
 .personal-information::-webkit-scrollbar-thumb{
     background-color: #DDD;
     border-radius: 4px;
+}
+
+
+
+
+@media (min-width:500px) and (max-width:668px) {
+    .shop-our{
+        width: 345px !important;
+        height: 201px;
+        display: flex;
+        margin-top: 0px;
+        background: linear-gradient(96.64deg, #FF7972 2.3%, rgba(245, 116, 109, 0.63) 79.65%, rgba(205, 80, 73, 0) 100%);
+        border-radius: 2px;
+        flex-direction: column;
+        margin-left: 30px;
+        transform: translate(12%,0%);
+        position: relative;
+    }
+    .shop-our img{
+        top: -10px;
+        right: 2px;
+        width: 95px;
+        height: 201px;
+    }
+    .shop-our h3{
+        font-size: 16px !important;
+    }
+    .shop-our p{
+        font-size: 10px !important;
+        line-height: 10px;
+        margin: 0;
+        width: 250px;
+        margin-top: -15px;
+        padding: 15px;
+
+    }
+    .shop-our a{
+        width: 120px;
+        margin-top: 30px;
+    }
+    .login-section{
+        padding: 5px;
+        margin-top: 50px;
+        position: relative;
+        width: 100%;
+        left: 40%;
+        transform: translate(-15%,10%);
+        min-height: 500px;
+        margin: 20px auto;
+    }
+    .Sign-up-back #login {
+        text-align: right;
+    }
+    .Sign-up-back div form span a{
+        position: relative;
+        left: 0%;
+        font-size: 12px;
+    }
+    .Sign-up-section{
+        width: 450.5px;
+        position: relative;
+        left: 0%;
+        top: -50%;
+        transform: translate(-10%,2%);
+        /* border: 1px solid; */
+     }
+
+     .sort-items{
+        width: 80%;
+        height: 48px;
+        background: #F6F7F8;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        margin-top: 18px;
+    }
+    .sort-items div h6{
+        line-height: 48px;
+        font-size: 10px;
+    }
+
+    .sort-items select{
+        font-size: 10px;
+        width: 56px;
+        height: 36px;
+        border: 1px solid #CDCDCD;
+        margin: auto auto;
+        padding-left: 2px;
+    }
 }
