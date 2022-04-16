@@ -22,6 +22,7 @@
 .login-section{
     width: 100%;
     min-height: 600px;
+    margin: auto auto;
 }
 .dropdown-menu{
     border: none;
@@ -281,12 +282,170 @@ border-radius: 2px;
 
 
     @media screen and (max-width: 500px) {
+        .shap-login-1,
+        .shap-login-2{
+            display: none;
+            position: absolute;
+            width: 151px;
+            height: 151px;
+            left: 20px;
+            top: 158px;
+            z-index: -99999;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
+        }
+        .login-section{
+            margin-top: 50px;
+            position: relative;
+            width: 300px;
+            left: 50%;
+            top: 0;
+            transform: translateX(-60%);
+            min-height: 500px;
+            /* display: none; */
+        }
+        .login-section .login-back{
+            width: 144px;
+            height: 431px;
+            left: 145px;
+        }
+        .login-section .welcome-our{
+            position: absolute;
+            width: 144px;
+            height: 431px;            
+            left: 1px;
+            background: #E6E6E6;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .welcome-our div img{
+            width: 115px;
+            height: 191px;
+
+        }
+        .login-back img{
+            width: 33px;
+            height: 33px;
+            margin: 2px 40%;
+        }
+        .login-back h2{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+        }
+        .login-back div span,
+        .login-back div span a{
+            font-size: 8px;
+            width: 1px;
+        }
+    .login-back div form span{
+        font-size: 8px;
+        font-size: 8px;
+    
+        }
+        /* text-align: center; */
+        .login-back div h5{
+            display: none;
+        }
+        .login-back div p{
+            width: 121px;
+            height: 26px;
+            padding: 0;
+            margin-left: -15px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 13px;
+            color: #797979;
+        }
+        .login-back div form label{
+            margin-left: -15px;
+            width: 67px;
+            height: 10px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+            color: #202020;
+            }
+            .login-back div form input{
+                width: 117px;
+                height: 28px;
+                margin-left: -15px;
+                padding-left: 0;
+                font-size: 10px;
+            }
+            .login-back div form .inputCostum{
+                margin-top: 0px;
+                margin-bottom: 10px;
+                padding-left: 10PX;
+            }
+            .login-back div form .fa-eye{
+                position: absolute;
+                margin-top: 85px;
+                margin-left: 80px;
+                cursor: pointer;
+                color: rgba(0, 0, 0, 0.5);
+            }
+            .login-back div form span a{
+                width: 47px;
+                height: 20px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+                text-decoration: none;
+                margin-left: -20px;
+                }
+
+                .login-back div form button{
+                    width: 117px;
+                    height: 28px;
+                    margin-left: -15px;
+                }
+                .welcome-our div h5{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #000000;
+                }
+
+                .shap-login-2{
+                    left: 10.69px;
+                    top: 640px;
+                    width: 100px;
+                    height: 100px;
+                    }
+
+                    .shap-login-3 img{
+                        position: absolute;
+                        height: 170px;
+                        left: px;
+                        top: 289px;
+                    }
+
+                    
+    }
+
+
+    @media (min-width:501px) and (max-width: 950px) {
         .shap-login-1{
             position: absolute;
             width: 231px;
             height: 231px;
             right: 0px;
-            top: 108px;
+            top: 138px;
             z-index: -99999;
             border-radius: 50%;
             background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
@@ -295,8 +454,10 @@ border-radius: 2px;
             margin-top: 50px;
             position: relative;
             width: 50%;
-            left: 10%;
+            /* left: 10%; */
+            transform: translate(20px,10%);
             min-height: 400px;
+            margin: 20px auto;
         }
         .login-section .login-back{
             width: 144px;
@@ -427,5 +588,46 @@ border-radius: 2px;
                         top: 289px;
                     }
 
+                    
+    }
+
+    @media screen and (max-width: 280px){
+
+        .login-section{
+            margin-top: 50px;
+            position: relative;
+            width: 200px;
+            left: 15px;
+            min-height: 400px;
+            /* margin: 20px auto; */
+        }
+
+    }
+
+
+        @media (min-width: 951px) and (max-width: 1200px) {
+
+        .login-section{
+            width: 750px !important;
+            position: relative;
+            margin-top: 50px;
+            margin-left: 0;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            min-height: 600px;
+        }
+        .login-section .login-back{
+            padding: 5px;
+            width: 350px;
+            left: 50%;
+        }
+        .login-section .welcome-our{
+            position: absolute;
+            width: 400px;            
+            left: 0px;
+            background: #E6E6E6;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
                     
     }

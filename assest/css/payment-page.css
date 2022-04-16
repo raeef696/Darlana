@@ -394,7 +394,7 @@
     line-height: 19px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
 
     .content-payment{
         width: 300px;
@@ -452,6 +452,31 @@
         text-align: center;
         color: rgba(255, 255, 255, 1);
     }
+    .pont-payment-1,
+    .pont-payment-2,.pont-payment-3,
+    .pont-payment-4,.pont-payment-5,
+    .pont-payment-6,.pont-payment-7
+    .pont-payment-8,.pont-payment-9,
+    .pont-payment-10,.pont-payment-11,
+    .pont-payment-12,.pont-payment-13,
+    .pont-payment-14,.pont-payment-15{
+        display: none;
+    }
+}
 
+
+@media (min-width: 1000px) and (max-width: 1380px) {
+
+
+    .pont-payment-1,
+    .pont-payment-2,.pont-payment-3,
+    .pont-payment-4,.pont-payment-5,
+    .pont-payment-6,.pont-payment-7
+    .pont-payment-8,.pont-payment-9,
+    .pont-payment-10,.pont-payment-11,
+    .pont-payment-12,.pont-payment-13,
+    .pont-payment-14,.pont-payment-15{
+        display: none;
+    }
 }
 /* end paypal Payment  card */

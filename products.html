@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="assest/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assest/css/bootstrap.min.css">
   <link rel="stylesheet" href="assest/css/darlana.css">
+  <link rel="stylesheet" href="./assest/css/rtldarlan.css">
   <title>DarLana</title>
 </head>
 
@@ -218,566 +219,568 @@
 
 
 
+
   <!-- start all products  -->
+
   <section>
-    <div class="container">
-        <div class="desc-products">
-            <h2>All products</h2>
-            <p>Our latest endeavour features designs from around the world with materials so comfortable you won't want to wear anything else every again.</p>
+    <div class="desc-products">
+      <h2>All products</h2>
+      <p>Our latest endeavour features designs from around the world with materials so comfortable you won't want to
+        wear anything else every again.</p>
+    </div>
+    <div class="container d-flex flex-box">
+      <div class="sidbar">
+        <div class="Categories container">
+          <ul>
+            <h3>Categories</h3>
+            <a href="">
+              <li>Elegant Dresses<span>2</span></li>
+            </a>
+            <a href="" class="active-Categories">
+              <li>Elegant Dresses<span>23</span></li>
+            </a>
+            <a href="">
+              <li>Abaya<span>16</span></li>
+            </a>
+            <a href="">
+              <li>Clutch bag<span>8</span></li>
+            </a>
+          </ul>
+        </div>
+        <div class="Prices container">
+          <div class="container">
+            <h3>Prices</h3>
+            <div class="row slider-labels">
+              <div class="col-7 caption">
+                <h5>Ranger: </h5>
+              </div>
+              <div class="col-2 caption">
+                <strong></strong> <span id="slider-range-value1"></span>
+              </div>
+              <div class="col-1 space">
+                <p>-</p>
+              </div>
+              <div class="col-1 text-right caption">
+                <strong></strong> <span id="slider-range-value2"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="slider-range"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <form>
+                  <input type="hidden" name="min-value" value="">
+                  <input type="hidden" name="max-value" value="">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="size-cont container">
+          <h3>Size</h3>
+          <div class="size">
+            <div class="activ-size">L</div>
+            <div>S</div>
+            <div>M</div>
+            <div>XL</div>
+            <div>XXL</div>
+            <div>XXXL</div>
+          </div>
+        </div>
+        <div class="Brand container">
+          <ul>
+            <h3>Brand</h3>
+            <a href="">
+              <li>Topshop<span>2</span></li>
+            </a>
+            <a href="" class="active-Categories">
+              <li>Ciao Lucia<span>23</span></li>
+            </a>
+            <a href="">
+              <li>Reformation<span>16</span></li>
+            </a>
+            <a href="">
+              <li>Everlane<span>8</span></li>
+            </a>
+          </ul>
         </div>
 
-        <div class="row row-product custum-prodect">
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-1">
-                      <div class="image" >
-                          <img src="./assest/imges/slider4.jpg" id="imgover">
-                          <img src="assest/imges/1.jpg" alt="" class="img-hover">
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      
-                      <div class="Buy-It disk-top-Buy">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div> 
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/slider4.jpg" alt="" id="">
-                      <img src="assest/imges/1.jpg" alt="">
-                      <img src="assest/imges/slider4.jpg" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img" id="card-2" >
-                      <div class="image" >
-                          <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
-                          <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
-        
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      <div class="Buy-It disk-top-Buy">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/shop1.png" alt="">
-                      <img src="assest/imges/shop6.png" alt="">
-                      <img src="assest/imges/shop1.png" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-3">
-                      <div class="image">
-                        <img src="./assest/imges/pro.png" id="imgover" class="setsrc2">
-                        <img src="./assest/imges/shop.png" id="imgover" class="img-hover">
-                    </div>
-                    <div class="hover-box">
-                      <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                        title="Add To Wishlist">
-                        <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                      </button>
-                      <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </button>
-                    </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="./assest/imges/shop.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/pro.png" alt="" class="ictev">
-                      <img src="assest/imges/shop.png" alt="">
-                      <img src="assest/imges/pro.png" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-4">
-                      <div class="image">
-                        <img src="./assest/imges/Featured1.png" id="imgover" class="setsrc2">
-                        <img src="./assest/imges/Featured5.png" id="imgover" class="img-hover">
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/Featured5.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/Featured1.png" alt="">
-                      <img src="assest/imges/Featured5.png" alt="">
-                      <img src="assest/imges/Featured1.png" alt="">
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="row row-product custum-prodect">
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-1">
-                      <div class="image" >
-                          <img src="./assest/imges/slider4.jpg" id="imgover">
-                          <img src="assest/imges/1.jpg" alt="" class="img-hover">
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-                    </div> 
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/slider4.jpg" alt="" id="">
-                      <img src="assest/imges/1.jpg" alt="">
-                      <img src="assest/imges/slider4.jpg" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img" id="card-2" >
-                      <div class="image" >
-                          <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
-                          <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
-        
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/shop1.png" alt="">
-                      <img src="assest/imges/shop6.png" alt="">
-                      <img src="assest/imges/shop1.png" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-3">
-                      <div class="image">
-                        <img src="./assest/imges/pro.png" id="imgover" class="setsrc2">
-                        <img src="./assest/imges/shop.png" id="imgover" class="img-hover">
-                    </div>
-                    <div class="hover-box">
-                      <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                        title="Add To Wishlist">
-                        <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                      </button>
-                      <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                      </button>
-                    </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="./assest/imges/shop.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/pro.png" alt="" class="ictev">
-                      <img src="assest/imges/shop.png" alt="">
-                      <img src="assest/imges/pro.png" alt="">
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-3">
-                <div class="swiper-slide card">
-                    <div class="card-img"  id="card-4">
-                      <div class="image">
-                        <img src="./assest/imges/Featured1.png" id="imgover" class="setsrc2">
-                        <img src="./assest/imges/Featured5.png" id="imgover" class="img-hover">
-                      </div>
-                      <div class="hover-box">
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                          title="Add To Wishlist">
-                          <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-                        </button>
-                        <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                      <div class="Buy-It">
-                        <a href="" class="btn"> Buy It Now </a>
-                      </div>
-
-                    </div>
-        
-                    <div class="name-Product">
-                      <h4 class="name">Elegant Dress #914</h4>
-                      <span class="price">
-                        <del>$500.00</del>
-                        <span>$300.00</span>
-                      </span>
-                    </div>
-        
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <div class="img-menu" id="menu">
-                      <img src="assest/imges/Featured5.png" alt="" class="imgMenu active-img">
-                      <img src="assest/imges/Featured1.png" alt="">
-                      <img src="assest/imges/Featured5.png" alt="">
-                      <img src="assest/imges/Featured1.png" alt="">
-                    </div>
-                  </div>
-            </div>
-        </div>
-            <!-- start mobile -->
-
-    <div class="row row-product none-diks container">
-      <div class="col-6">
-        <div class="swiper-slide card">
-          <div class="card-img" id="card-1">
-            <div class="image">
-              <img src="./assest/imges/slider4.jpg" id="imgover">
-              <img src="assest/imges/1.jpg" alt="" class="img-hover">
-            </div>
-            <div class="hover-box">
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                title="Add To Wishlist">
-                <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-              </button>
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="Buy-It">
-              <a href="" class="btn"> Buy It Now </a>
-            </div>
-          </div>
-          <div class="name-Product">
-            <h4 class="name">Elegant Dress #914</h4>
-            <span class="price">
-              <del>$500.00</del>
-              <span>$300.00</span>
-            </span>
+        <div class="color container">
+          <div class="color-optin">
+            <h3>Color</h3>
+            <ul class="colors-list">
+              <li class="active-color"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </div>
 
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-
-          <div class="img-menu" id="menu">
-            <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
-            <img src="assest/imges/slider4.jpg" alt="" id="">
-            <img src="assest/imges/1.jpg" alt="">
-            <img src="assest/imges/slider4.jpg" alt="">
-          </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="swiper-slide card">
-          <div class="card-img" id="card-2">
-            <div class="image">
-              <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
-              <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
+      <div class="contnt">
+        <div class="shop-our">
+          <h3>Shop Our New Collection</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque amet, semper suspendisse at dignissim
+            pretium massa.</p>
+          <a href="" class="btn">Shop Now</a>
+          <img src="./assest/imges/imgpath.png" alt="" srcset="">
+        </div>
+        <div>
+          <div class="sort-items">
+            <div class="items-nom">
+              <h6>13 Items</h6>
             </div>
-            <div class="hover-box">
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                title="Add To Wishlist">
-                <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-              </button>
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
+            <div>
+              <h6>Sort By</h6>
+              <select name="" id="">
+                <option value="">Name</option>
+                <option value="">Name1</option>
+                <option value="">Name2</option>
+              </select>
             </div>
-            <div class="Buy-It">
-              <a href="" class="btn"> Buy It Now </a>
+            <div class="show-items">
+              <h6>Show</h6>
+              <select name="" id="">
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+              </select>
             </div>
           </div>
-          <div class="name-Product">
-            <h4 class="name">Elegant Dress #914</h4>
-            <span class="price">
-              <del>$500.00</del>
-              <span>$300.00</span>
-            </span>
+        </div>
+        <div class="row row-product custum-prodect ">
+          <div class="col-4 mt-4">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-1">
+                <div class="image">
+                  <img src="./assest/imges/slider4.jpg" id="imgover">
+                  <img src="assest/imges/1.jpg" alt="" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
+                <img src="assest/imges/slider4.jpg" alt="" id="">
+                <img src="assest/imges/1.jpg" alt="">
+                <img src="assest/imges/slider4.jpg" alt="">
+              </div>
+            </div>
           </div>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+          <div class="col-4 mt-4">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-2">
+                <div class="image">
+                  <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
+                  <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
+
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
+                <img src="assest/imges/shop1.png" alt="">
+                <img src="assest/imges/shop6.png" alt="">
+                <img src="assest/imges/shop1.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="img-menu" id="menu">
-            <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
-            <img src="assest/imges/shop1.png" alt="">
-            <img src="assest/imges/shop6.png" alt="">
-            <img src="assest/imges/shop1.png" alt="">
+          <div class="col-4 mt-4">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-3">
+                <div class="image">
+                  <img src="./assest/imges/pro.png" id="imgover" class="setsrc2">
+                  <img src="./assest/imges/shop.png" id="imgover" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="img-menu" id="menu">
+                <img src="./assest/imges/shop.png" alt="" class="imgMenu active-img">
+                <img src="assest/imges/pro.png" alt="" class="ictev">
+                <img src="assest/imges/shop.png" alt="">
+                <img src="assest/imges/pro.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mt-4">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-3">
+                <div class="image">
+                  <img src="./assest/imges/pro.png" id="imgover" class="setsrc2">
+                  <img src="./assest/imges/shop.png" id="imgover" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="img-menu" id="menu">
+                <img src="./assest/imges/shop.png" alt="" class="imgMenu active-img">
+                <img src="assest/imges/pro.png" alt="" class="ictev">
+                <img src="assest/imges/shop.png" alt="">
+                <img src="assest/imges/pro.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- start mobile -->
+        <div class="row row-product none-diks container  none-diks1">
+          <div class="col-6">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-1">
+                <div class="image">
+                  <img src="./assest/imges/slider4.jpg" id="imgover">
+                  <img src="assest/imges/1.jpg" alt="" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
+                <img src="assest/imges/slider4.jpg" alt="" id="">
+                <img src="assest/imges/1.jpg" alt="">
+                <img src="assest/imges/slider4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-2">
+                <div class="image">
+                  <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
+                  <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
+                <img src="assest/imges/shop1.png" alt="">
+                <img src="assest/imges/shop6.png" alt="">
+                <img src="assest/imges/shop1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-product none-diks container none-diks1">
+          <div class="col-6">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-1">
+                <div class="image">
+                  <img src="./assest/imges/slider4.jpg" id="imgover">
+                  <img src="assest/imges/1.jpg" alt="" class="img-hover">
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
+                <img src="assest/imges/slider4.jpg" alt="" id="">
+                <img src="assest/imges/1.jpg" alt="">
+                <img src="assest/imges/slider4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="swiper-slide card">
+              <div class="card-img" id="card-2">
+                <div class="image">
+                  <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
+                  <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
+
+                </div>
+                <div class="hover-box">
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Add To Wishlist">
+                    <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
+                  </button>
+                  <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Quick Searsh">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="Buy-It">
+                  <a href="" class="btn"> Buy It Now </a>
+                </div>
+              </div>
+
+              <div class="name-Product">
+                <h4 class="name">Elegant Dress #914</h4>
+                <span class="price">
+                  <del>$500.00</del>
+                  <span>$300.00</span>
+                </span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="img-menu" id="menu">
+                <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
+                <img src="assest/imges/shop1.png" alt="">
+                <img src="assest/imges/shop6.png" alt="">
+                <img src="assest/imges/shop1.png" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row row-product none-diks container">
-      <div class="col-6">
-        <div class="swiper-slide card">
-          <div class="card-img" id="card-1">
-            <div class="image">
-              <img src="./assest/imges/slider4.jpg" id="imgover">
-              <img src="assest/imges/1.jpg" alt="" class="img-hover">
-            </div>
-            <div class="hover-box">
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                title="Add To Wishlist">
-                <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-              </button>
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="Buy-It">
-              <a href="" class="btn"> Buy It Now </a>
-            </div>
-          </div>
-
-          <div class="name-Product">
-            <h4 class="name">Elegant Dress #914</h4>
-            <span class="price">
-              <del>$500.00</del>
-              <span>$300.00</span>
-            </span>
-          </div>
-
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-
-          <div class="img-menu" id="menu">
-            <img src="assest/imges/1.jpg" alt="" class="imgMenu active-img">
-            <img src="assest/imges/slider4.jpg" alt="" id="">
-            <img src="assest/imges/1.jpg" alt="">
-            <img src="assest/imges/slider4.jpg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="swiper-slide card">
-          <div class="card-img" id="card-2">
-            <div class="image">
-              <img src="./assest/imges/shop1.png" id="imgover" class="setsrc2">
-              <img src="./assest/imges/shop6.png" id="imgover" class="img-hover">
-
-            </div>
-            <div class="hover-box">
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left"
-                title="Add To Wishlist">
-                <i class="fa fa-heart-o" aria-hidden="true" id="heart"></i>
-              </button>
-              <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="left" title="Quick Searsh">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="Buy-It">
-              <a href="" class="btn"> Buy It Now </a>
-            </div>
-          </div>
-
-          <div class="name-Product">
-            <h4 class="name">Elegant Dress #914</h4>
-            <span class="price">
-              <del>$500.00</del>
-              <span>$300.00</span>
-            </span>
-          </div>
-
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <div class="img-menu" id="menu">
-            <img src="assest/imges/shop6.png" alt="" class="imgMenu active-img">
-            <img src="assest/imges/shop1.png" alt="">
-            <img src="assest/imges/shop6.png" alt="">
-            <img src="assest/imges/shop1.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-
   </section>
+  <!-- end all products -->
+
 
   <!-- end all products -->
 

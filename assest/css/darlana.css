@@ -4,6 +4,7 @@
     direction: ltr;
     box-sizing: border-box;
     text-decoration: none;
+    /* overflow: hidden; */
     /* direction: rtl; */
     
 }
@@ -214,6 +215,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .none-diks1 .Buy-It a{
     font-size: 8px;
 }
@@ -230,9 +232,25 @@
     position: relative;
 }
 
-
+.custum-prodect .card{
+    width: 300px;
+    /* display: none; */
+}
 .navbaraccount nav{
     display: none;
+}
+.info-footer-cart{
+    overflow-x: auto;
+    padding-left: 10px;
+
+}
+.info-footer-cart::-webkit-scrollbar{
+    width: 1px;
+    height: 5px;
+}
+.info-footer-cart::-webkit-scrollbar-thumb{
+    background-color: #DDD;
+    border-radius: 4px;
 }
 @media (min-width:500px) and (max-width:668px) {
     .heart-Wishlist{
@@ -285,12 +303,12 @@
     .heart-Wishlist{
         font-size: 15px;
         position: absolute;
-        right:  50px;
+        right:  130px;
         top: 80px;
     }
     .cart-shopping{
         position: absolute;
-        right: 120px;
+        right: 200px;
         font-size: 13px;
         top: 80px;
     }
@@ -379,7 +397,7 @@
 
     .bg-black .flex-header .sign-up-login div select{
         height: 10px;
-        width: 70px;
+        width: 50px;
         font-size: 10px;
         padding-left: 10px;
     }
@@ -441,7 +459,7 @@
     }
     .navbaraccount .navbar-collapse{
         position: absolute;
-        /* right: 0; */
+        right: 0;
         top: 40px;
         width: 180px;
         background-color: #DDD;
@@ -453,19 +471,7 @@
         flex-wrap: nowrap;
     }
 
-    .info-footer-cart{
-        overflow-x: auto;
-        padding-left: 10px;
 
-    }
-    .info-footer-cart::-webkit-scrollbar{
-        width: 1px;
-        height: 5px;
-    }
-    .info-footer-cart::-webkit-scrollbar-thumb{
-        background-color: #DDD;
-        border-radius: 4px;
-    }
     .personal-information .information-single h4{
         font-size: 8px;
     }
@@ -837,7 +843,6 @@
     top: 29px;
     border-radius: 50px;
     background: rgba(235, 26, 201, 0.16);
-
 }
 
 
@@ -856,13 +861,12 @@
 
 .ponts .pont3{
     position: absolute;
-width: 15px;
-height: 15px;
-left: 20%;
-top: 7px;
-
-background: #252525;
-border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    left: 20%;
+    top: 7px;
+    background: #252525;
+    border-radius: 50px;
 }
 
 .ponts .pont4{
@@ -909,17 +913,12 @@ border-radius: 50px;
 
 .title .title-sec p{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
-
-text-align: center;
-
-color: #000000;
-
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
 }
 
 
@@ -928,6 +927,7 @@ color: #000000;
   }
   
   .card{
+      width: 200px;
     position: relative;
     border: none;
     overflow: hidden;
@@ -1942,6 +1942,7 @@ margin-right: 30px;
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .size-cont h3{
     display: block;
@@ -1956,7 +1957,7 @@ margin-right: 30px;
 }
 .size div{
     margin-top: 10px;
-    width: 19%;
+    width: 20%;
     background: #FFFFFF;
     border: 0.3px solid #E70727;
     box-sizing: border-box;
@@ -3110,6 +3111,10 @@ color: #000000;
 .navbar-toggler{
     all: unset;
 }
+.Payment div img{
+    width: 50px;
+    height: 40px;
+}
 @media screen and (max-width: 500px) {
 
     .pont-payment-1,
@@ -3170,9 +3175,7 @@ color: #000000;
         width: 154px;
         height: 192px;
     }
-    .card .card-img .image img{
-        background-size: cover;
-    }
+
     .ponts{
         display: none;
     }
@@ -3239,26 +3242,31 @@ color: #000000;
         margin-left: 7%;
         width: 100%;
     }
+    .Payment div img{
+        width: 50px;
+        height: 40px;
+    }
     footer .sub{
         margin-top: 90px;
         margin-left: 7%;
     }
+    footer .sub p{
+        font-size: 10px;
+    }
+    footer .sub .form{
+        width: 200px;
+        font-size: 10px;
+    }
     .app-play{
-        
         display: flex;
         flex-direction: row;
     }
+
     .app-play a img{
         width: 100%;
         margin-right: 10px;
     }
-    .custum-prodect{
-        display: none;
-    }
-    .custum-prodect div .swiper-slide{
-        width: 200px;
-        margin: auto auto;
-    }
+
     .desc-products p{
         width: 300px;
         font-size: 10px;
@@ -3375,12 +3383,7 @@ color: #000000;
         height: 20px;
         line-height: 20px;
     }
-    .Prices{
-            width: 107px;
-    }
-    .Prices h3{
-        font-size: 10px;
-    }
+
     .caption h5{
         font-size: 8px;
     }
@@ -3450,19 +3453,7 @@ color: #000000;
         .personal-information .castum-margin-mobile{
             padding-left: 18px;
         }
-        .table-order{
-            background: #F2F2F2;
-            overflow-x: auto;
-            padding: 10px;
-        }
-        .table-order::-webkit-scrollbar{
-            width: 1px;
-            height: 5px;
-        }
-        .table-order::-webkit-scrollbar-thumb{
-            background-color: #DDD;
-            border-radius: 4px;
-        }
+
 
         .test1{
             background: #F2F2F2;
@@ -3567,19 +3558,7 @@ color: #000000;
             margin: 20px auto;
             
         }
-        .none-diks .swiper-slide {
-           width: 170px;
-           margin: auto auto;
-        }
 
-        .none-diks .swiper-slide .card-img{
-           width: 120px;
-           height: 200px;
-        }
-        .none-diks .swiper-slide .img-menu img{
-            width: 20px;
-            margin: 1px;
-        }
     }
 
 
@@ -3678,24 +3657,44 @@ color: #000000;
 
 
 
+@media screen and (max-width:1300px) {
+    .test1{
+        background: #F2F2F2;
+        overflow-x: auto;
+        padding: 10px;
+    }
+    .test1::-webkit-scrollbar{
+        width: 1px;
+        height: 5px;
+    }
+    .test1::-webkit-scrollbar-thumb{
+        background-color: #DDD;
+        border-radius: 4px;
+    }
 
+    .table-order{
+        background: #F2F2F2;
+        overflow-x: auto;
+        padding: 10px;
+    }
+    .table-order::-webkit-scrollbar{
+        width: 1px;
+        height: 5px;
+    }
+    .table-order::-webkit-scrollbar-thumb{
+        background-color: #DDD;
+        border-radius: 4px;
+    }
+}
 
 
 
 
     
 /* Mobile phone design */
-.none-diks .Buy-It{
-    color: red;
-    width: 70%;
-    left: 40px;
-    top: 37%;
-}
 
-.none-diks .name-Product .price{
-    text-align: center;
-    font-size: 15px;
-}
+
+
 
 @media (min-width:500) and (max-width:1600px){
     .info-footer-cart .personal-information{
@@ -3713,4 +3712,332 @@ color: #000000;
         border-radius: 4px;
     }
 
+}
+
+
+
+
+@media screen and (max-width:280px){
+
+
+    .heart-Wishlist{
+        font-size: 15px;
+        position: absolute;
+        right:  30px;
+
+    }
+    .cart-shopping a{
+        position: absolute;
+        right: 120px;
+        font-size: 10px;
+        top: 29px;
+    }
+    .heed-logo-ser-icon form div input[type="search"]{
+        border: 0.5px solid rgba(0, 0, 0, 1);
+        font-size: 14px;
+        color: rgba(143, 143, 143, 0.5);
+        padding: 10px;
+        position: absolute;
+        margin-top: 10px;
+        border-radius: 5px 0px 0px 5px;
+        width: 80px;
+        left: 0px;
+        outline: none;
+        display: none;
+    }
+    .heed-logo-ser-icon form input[type="button"]{
+        margin-top: 10.7px;
+        transform: translateX(80px);
+        width: 50px;
+        display: none;
+    }
+
+    .content-header .navbar .navbar-toggler{
+        top: -15px;
+        font-size: 16px;
+        width: 60px;
+        height: 60px;
+        box-shadow: none;
+        border: 0 ;
+        position: absolute;
+        right: -20px;
+        /* margin-left: 40px; */
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .Prices{
+        display: none;
+    }
+
+    .card .card-img .image img{
+        background-size: cover;
+    }
+    .none-diks .swiper-slide {
+        width: 100px;
+        transform: translate(9%,5%);
+     }
+
+     .none-diks .swiper-slide .card-img{
+        width: 120px;
+        height: 200px;
+     }
+     .none-diks .swiper-slide .img-menu img{
+         width: 20px;
+         margin: 1px;
+     }
+     .none-diks .name-Product .price del,
+     .name-Product .price span{
+        text-align: center;
+        font-size: 8px;
+    }
+    .card .name-Product{
+        padding: 0;
+    }
+    .none-diks .Buy-It{
+        color: red;
+        width: 90%;
+        height: 30px;
+        line-height: 30px;
+        left: -50px;
+        top: 42%;
+        transform: translate(60%,10%);
+    }
+    .none-diks .hover-box{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 7px;
+        right: -20.5%;
+        overflow: hidden;
+        text-align: center;
+        margin-right: 14.5%;
+        opacity: 0;
+    
+    }
+    .none-diks .hover-box button{
+        outline: 0;
+        background-color: none;
+        color: none;
+    }
+    
+
+    .custum-prodect{
+        display: none;
+    }
+
+
+}
+
+
+
+@media (min-width: 501px) and (max-width: 959px) {
+    .Prices{
+        width: 180px;
+    }
+    .price .slider-labels .caption h5{
+        font-size: 8px;
+    }
+    .size-cont{
+        width: 180px;
+    }
+    .size-cont .size div{
+        margin: 3px;
+        width: 40px;
+        
+    }
+    .Brand{
+        width: 180px;
+    }
+    .Categories{
+        width: 180px;
+    }
+    .color{
+        width: 180px;
+    }
+    .desc-products .contnt{
+        display: none;
+    }
+    .custum-prodect .card{
+        width: 250px;
+        /* display: none; */
+    }
+    .custum-prodect{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .custum-prodect .col-4{
+        width: 180px;
+        margin-left: 50px;
+        /* display: none; */
+    }
+    .contnt .shop-our{
+        width: 100%;
+    }
+    .shop-our h3{
+        font-size: 14px;
+    }
+    .shop-our p{
+        font-size: 14px;
+        width: 294px;
+        height: 24px;
+        line-height: 24px;
+        }
+    .shop-our a{
+        text-align: center;
+        margin-top: 68px;
+        font-size: 14;
+    }
+    .sort-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .sort-items div{
+        width: 180px;
+    }
+    .sort-items div h6{
+        line-height: 48px;
+        font-size: 14px;
+    }
+    .sort-items select{
+        width: 80px;
+        height: 36px;
+        border: 1px solid #CDCDCD;
+        margin: auto auto;
+    
+    }
+}
+
+
+@media (min-width:960px) and (max-width: 1280px) {
+
+    .Prices{
+        width: 180px;
+    }
+    .price .slider-labels .caption h5{
+        font-size: 8px;
+    }
+    .size-cont{
+        width: 180px;
+    }
+    .size-cont .size div{
+        margin: 3px;
+        width: 40px;
+        
+    }
+    .Brand{
+        width: 180px;
+    }
+    .Categories{
+        width: 180px;
+    }
+    .color{
+        width: 180px;
+    }
+    .desc-products .contnt{
+        display: none;
+    }
+    .custum-prodect .card{
+        width: 250px;
+        /* display: none; */
+    }
+    .custum-prodect{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .custum-prodect .col-4{
+        width: 220px;
+        margin-left: 50px;
+        /* display: none; */
+    }
+    .contnt .shop-our{
+        width: 100%;
+    }
+    .shop-our h3{
+        font-size: 20px;
+    }
+    .shop-our p{
+        font-size: 16px;
+        width: 454px;
+        height: 24px;
+        line-height: 24px;
+        }
+    .shop-our a{
+        text-align: center;
+        margin-top: 68px;
+        font-size: 14;
+    }
+    .sort-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .sort-items div{
+        width: 180px;
+    }
+    .sort-items div h6{
+        line-height: 48px;
+        font-size: 14px;
+    }
+    .sort-items select{
+        width: 100px;
+        height: 36px;
+        border: 1px solid #CDCDCD;
+        margin: auto auto;
+    
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .content-prodect{
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+}
+
+
+
+
+
+
+
+.info-footer-cart .personal-information{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.info-footer-cart {
+    width: 80%;
+    overflow-x: auto;
+}
+.info-footer-cart .personal-information{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.personal-information::-webkit-scrollbar{
+    width: 1px;
+    height: 5px;
+}
+.personal-information::-webkit-scrollbar-thumb{
+    background-color: #DDD;
+    border-radius: 4px;
 }
