@@ -20,35 +20,35 @@
   
 }
 .Sign-up-section{
-    min-width: 280px;
+    width: 80%;
     position: relative;
-    min-height: 1100px;
+    min-height: 1200px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,20px);
+    transform: translate(-45%,20px);
+
 }
 
 .Sign-up-section .Sign-up-back{
     position: absolute;
     width: 444px;
-    min-height: 950px;
+    min-height: 1000px;
     left: 50%;
     top: 0px;
     border: 0.2px solid rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 .Sign-up-back img{
-    margin: 0px 40%;
-    margin-top: 40px;
+    display: flex;
+    margin: 20px auto;
 
 }
 .Sign-up-section .welcome-our{
     position: absolute;
     width: 559px;
-    min-height: 950px;
+    min-height: 1000px;;
     right: 50%;
     top: 0px;
     background: #E6E6E6;
@@ -73,7 +73,6 @@
     margin-top: 70px;
 }
 .Sign-up-section .welcome-our div img{
-
     margin-top: 50px;
 }
 .Sign-up-section .welcome-our div i{
@@ -126,11 +125,11 @@
     line-height: 20px;
     color: #000000;
     padding: 18px 0;
-
 }
 
+
 .Sign-up-back div p{
-    width: 234px;
+    width: 90%;
     height: 40px;
     font-family: 'Roboto';
     font-style: normal;
@@ -138,11 +137,12 @@
     font-size: 14px;
     line-height: 20px;
     color: #797979;
-
 }
+
 .Sign-up-back .form{
     margin-left: 32px;
 }
+
 .Sign-up-back div form .row{
     display: flex;
     margin-top: 10px;
@@ -206,7 +206,7 @@
     width: 231px;
     height: 231px;
     right: 151.9px;
-    top: 150.64px;
+    top: 240.64px;
     border-radius: 50%;
     z-index: -9999;
     background: linear-gradient(180deg, #F69792 37.92%, rgba(196, 196, 196, 0) 100%);
@@ -390,7 +390,7 @@ background: rgba(246, 151, 146, 0.5);
 
 }
 .Sign-up-back div form  label{
-    width: 100%;
+    width: 90%;
     display: inline-block;
     font-family: 'Roboto';
     font-style: normal;
@@ -404,7 +404,7 @@ background: rgba(246, 151, 146, 0.5);
 .Sign-up-back div form input{
     width: 181px;
     height: 40px;
-    padding-left: 8px;
+    padding: 8px;
     border: 0.5px solid #000000;
     box-sizing: border-box;
     border-radius: 2px;
@@ -415,7 +415,7 @@ background: rgba(246, 151, 146, 0.5);
     position: absolute;
     /* top: 10%; */
     cursor: pointer;
-    right: 30px;
+    right: 10%;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -429,13 +429,15 @@ background: rgba(246, 151, 146, 0.5);
     outline: none;
     border: none;
     }
-.Sign-up-back div form span a{
-    position: relative;
-    left: 68.5%;
+
+.Sign-up-back .form .forget{
+    width: 900px;
+    /* width: 90%; */
+    text-align: center;
 }
 
 .Sign-up-back #login {
-    width: 394px;
+    width: 90%;
     height: 20px;
     font-family: 'Roboto';
     font-style: normal;
@@ -455,7 +457,6 @@ background: rgba(246, 151, 146, 0.5);
     font-size: 14px;
     line-height: 20px;    
     text-align: center;
-    
     color: #000000;
     
     
@@ -468,10 +469,8 @@ background: rgba(246, 151, 146, 0.5);
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
     text-decoration: none;
-    text-align: right;
     }
 
 
@@ -510,443 +509,13 @@ background: rgba(246, 151, 146, 0.5);
 
 }
 
+.shep-pont{
+    display: flex;
+}
 
 .shap-login-3 img{
     position: absolute;
     height: 170px;
     left: px;
     top: 389px;
-}
-@media (min-width:500px) and (max-width:668px) {
-
-    .Sign-up-back #login {
-        text-align: right;
-    }
-    .Sign-up-back div form span a{
-        position: relative;
-        left: 0%;
-        font-size: 12px;
-    }
-    .Sign-up-section{
-        width: 450.5px;
-        position: relative;
-        left: 0%;
-        top: -50%;
-        transform: translate(-10%,2%);
-        /* border: 1px solid; */
-     }
-}
-
-@media screen and (max-width: 500px) {
-    .shep-pont,
-    .shep-pont1,
-    .shep-pont3,.shep-pont4,.shep-pont5,
-    .shep-pont6,.shep-pont7,.shep-pont2,
-    .shep-pont8,.shep-pont9,.shep-pont10,
-    .shep-pont11,.shep-pont12,.shep-pont13,
-    .shep-pont14,.shep-pont15,.shepstar{
-    display: none;
-    }
-
-    .Sign-up-section{
-        width: 330.5px;
-        position: relative;
-        left: 50%;
-        top: -50%;
-        transform: translate(-50%,2%);
-     }
-
-    .Sign-up-section .Sign-up-back{
-        width: 165px;
-        height: 610px;
-        top: 0px;
-        right: 0;
-    }
-    .Sign-up-back img{
-        width: 33px;
-        height: 33px;
-        margin: 0px 40%;
-        margin-top: 40px;
-    
-    }
-    .Sign-up-section .welcome-our{
-        position: absolute;
-        left: 0;
-        width: 165px;
-
-    }
-    .Sign-up-back form div input{
-        width: 157px;
-        height: 28px;
-        
-    }
-    .Sign-up-back div input[type=email]{
-        width: 157px;
-        height: 28px;
-    }
-    .Sign-up-back .form{
-        margin-left: 2px;
-    }
-    .Sign-up-back div input[type=password]{
-        width: 157px;
-        height: 28px;
-    
-    }
-    .Sign-up-back div .inputCostum{
-        width: 157px;
-        height: 28px;
-    }
-    .Sign-up-back div form .row select{
-        width: 157px;
-        height: 28px;
-    }
-    .Sign-up-back div form button{
-        width: 157px;
-        height: 28px;
-    }
-    .Sign-up-back h2{
-        font-size: 14px;
-    }
-    .Sign-up-back div h5{
-        font-size: 14px;
-
-    
-    }
-    
-    .Sign-up-back div p{
-        font-size: 9px;
-        width: 169px;
-    }
-    .Sign-up-back div form  label{
-        font-size: 10px;
-    }
-    .Sign-up-back div form span a{
-        position: relative;
-        left: 38%;
-        font-size: 12px;
-    }
-    .Sign-up-back #login {
-        width: 165px;
-        height: 20px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        text-align: left;
-        color: rgba(0, 0, 0, 0.6);
-        margin-top: 10px;
-    }
-    .Sign-up-back #login span {
-        font-size: 10px;
-    }
-    .Sign-up-back #login span a{
-        font-size: 5px;
-    }
-    .Sign-up-section .welcome-our div img{
-        width: 131px;
-        height: 108px;
-        
-    }
-    .Sign-up-section .welcome-our h5{
-        width: 104px;
-        height: 20px;    
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        
-        }
-        .Sign-up-section .welcome-our p{
-            width: 109px;
-            height: 40px;            
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 8px;
-            line-height: 10px;            
-            text-align: center;
-        }
-        .Sign-up-section .Sign-up-back .form #togglePassword{
-            padding: 10px;
-            margin-right: -30px;
-            margin-top: -6px;
-        }
-
-
-}
-
-
-
-@media (min-width: 501px) and (max-width: 959px) {
-
-    .shep-pont,
-    .shep-pont1,
-    .shep-pont3,.shep-pont4,.shep-pont5,
-    .shep-pont6,.shep-pont7,.shep-pont2,
-    .shep-pont8,.shep-pont9,.shep-pont10,
-    .shep-pont11,.shep-pont12,.shep-pont13,
-    .shep-pont14,.shep-pont15,.shepstar{
-    display: none;
-    }
-    .Sign-up-section{
-        width: 450.5px;
-        position: relative;
-        left: 50%;
-        top: -50%;
-        transform: translate(-50%,2%);
-        /* border: 1px solid; */
-     }
-    .Sign-up-section .Sign-up-back{
-        padding: 5px;
-        width: 225px;
-        height: 610px;
-        top: 0px;
-        right: 0px;
-    }
-    .Sign-up-back img{
-        width: 33px;
-        height: 33px;
-        margin: 0px 40%;
-        margin-top: 40px;
-    
-    }
-    .Sign-up-section .welcome-our{
-        position: absolute;
-        left: 0;
-        width: 225px;
-    }
-    .Sign-up-back form div input{
-        width: 197px;
-        height: 28px;
-        
-    }
-    .Sign-up-back div input[type=email]{
-        width: 197px;
-        height: 28px;
-    }
-    .Sign-up-back .form{
-        margin-left: 2px;
-    }
-    .Sign-up-back div input[type=password]{
-        width: 197px;
-        height: 28px;
-    
-    }
-    .Sign-up-back div .inputCostum{
-        width: 197px;
-        height: 28px;
-    }
-    .Sign-up-back div form .row select{
-        width: 197px;
-        height: 28px;
-        font-size: 10px;
-    }
-    .Sign-up-back div form button{
-        width: 197px;
-        height: 28px;
-    }
-    .Sign-up-back h2{
-        font-size: 20px;
-    }
-    .Sign-up-back div h5{
-        font-size: 16px;
-
-    
-    }
-    
-    .Sign-up-back div p{
-        font-size: 12px;
-        width: 169px;
-    }
-    .Sign-up-back div form  label{
-        font-size: 10px;
-    }
-    .Sign-up-back div form span a{
-        position: relative;
-        left: 2%;
-    }
-    .Sign-up-back #login {
-        width: 225px;
-        height: 20px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        text-align: left;
-        color: rgba(0, 0, 0, 0.6);
-        margin-top: 10px;
-    }
-    .Sign-up-section .welcome-our div img{
-        width: 131px;
-        height: 108px;
-        
-    }
-    .Sign-up-section .welcome-our h5{
-        width: 104px;
-        height: 20px;    
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-        
-        }
-        .Sign-up-section .welcome-our p{
-            width: 139px;
-            /* height: 40px;             */
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            padding-top: 20px;
-            text-align: center;
-        }
-        .Sign-up-section .Sign-up-back .form #togglePassword{
-            padding: 10px;
-            margin-right: 0px;
-            margin-top: -6px;
-        }
-
-
-}
-
-
-@media (min-width:960px) and (max-width: 1280px) {
-
-    .shep-pont,
-    .shep-pont1,
-    .shep-pont3,.shep-pont4,.shep-pont5,
-    .shep-pont6,.shep-pont7,.shep-pont2,
-    .shep-pont8,.shep-pont9,.shep-pont10,
-    .shep-pont11,.shep-pont12,.shep-pont13,
-    .shep-pont14,.shep-pont15,.shepstar{
-    display: none;
-    }
-    .Sign-up-section{
-       width: 801.5px;
-       position: relative;
-       left: 50%;
-       top: -50%;
-       transform: translate(-50%,2%);
-    }
-    .Sign-up-section .Sign-up-back{
-
-        width: 400px;
-        height: 610px;
-        top: 0px;
-        right: 0px;
-    }
-    .Sign-up-back img{
-        width: 33px;
-        height: 33px;
-        margin: 0px 40%;
-        margin-top: 40px;
-    
-    }
-    .Sign-up-section .welcome-our{
-        position: absolute;
-        left: 0;
-        width: 400px;
-        /* display: none; */
-        top: 0;
-    }
-    .Sign-up-back form div input{
-        width: 180px;
-        height: 28px;
-        
-    }
-    .Sign-up-back div input[type=email]{
-        width: 197px;
-        height: 28px;
-    }
-    .Sign-up-back .form{
-        margin-left: 2px;
-    }
-    .Sign-up-back div input[type=password]{
-        width: 197px;
-        height: 28px;
-    
-    }
-    .Sign-up-back div .inputCostum{
-        width: 197px;
-        height: 28px;
-    }
-    .Sign-up-back div form .row select{
-        width: 197px;
-        height: 28px;
-        font-size: 10px;
-    }
-    .Sign-up-back div form button{
-        width: 197px;
-        height: 28px;
-        
-    }
-    .Sign-up-back h2{
-        font-size: 20px;
-        text-align: center;
-    }
-    .Sign-up-back div h5{
-        font-size: 16px;
-
-    
-    }
-    
-    .Sign-up-back div p{
-        font-size: 12px;
-        width: 169px;
-    }
-    .Sign-up-back div form  label{
-        font-size: 10px;
-    }
-    .Sign-up-back div form span a{
-        position: relative;
-        left: 2%;
-        font-size: 10px;
-    }
-    .Sign-up-back #login {
-        width: 394px;
-        height: 20px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        text-align: left;
-        color: rgba(0, 0, 0, 0.6);
-        margin-top: 30px;
-    }
-    .Sign-up-section .welcome-our div img{
-        width: 131px;
-        height: 108px;
-        text-align: center;
-        
-    }
-    .Sign-up-section .welcome-our h5{
-        width: 104px;
-        height: 20px;    
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-        
-        }
-        .Sign-up-section .welcome-our p{
-            width: 199px;
-            /* height: 40px;             */
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            padding-top: 20px;
-            text-align: center;
-        }
-
-        .Sign-up-section .Sign-up-back{
-            padding: 10px;
-        }
-        .Sign-up-section .Sign-up-back .form #togglePassword{
-            padding: 10px;
-            margin-right: 155px;
-            margin-top: -6px;
-        }
 }

@@ -42,10 +42,17 @@
     background: #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    transition: all .43s ease-in-out;
 }
 .login-back img{
-    margin: 20px 40%;
+    position: relative;
+    left: 50%;
+    width: 70px;
+    height: 71px;
+    /* text-align: center; */
+    margin: 20px auto;
+    transform: translate(-50%,10%);
+    /* display: none */
 }
 .login-section .welcome-our{
     position: absolute;
@@ -54,6 +61,7 @@
     left: 275px;
     background: #E6E6E6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all .43s ease-in-out;
 }
 
 .login-section .welcome-our div{
@@ -61,6 +69,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: all .43s ease-in-out;
 }
 .login-section .welcome-our div i{
     font-size: 32px;
@@ -68,6 +77,7 @@
 }
 .login-section .welcome-our h5{
     margin-top: 30px;
+    transition: all .43s ease-in-out;
 }
 .login-back h2{
     text-align: center;
@@ -84,14 +94,13 @@
     margin-left: 32px;
 }
 .login-back div h5{
-    width: 199px;
     height: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    text-align: center;
+    text-align: left;
     color: #000000;
 }
 
@@ -110,10 +119,24 @@
     flex-direction: column;
     margin-top: 20px;
     }
+    .login-back div form div{
+        margin-left: -1px;
+        width: 65%;
+    }
+    .login-back div form #password{
+        width: 100%;
+    }
     .login-back div form .inputCostum{
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-left: 60PX;
+    position: relative;
+    }
+    .login-back div form .fa-eye{
+        position: absolute;
+        right: 3%;
+        top: 11px;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.5);
     }
 .login-back div form label{
     width: 94px;
@@ -130,6 +153,7 @@
 
 .login-back div span{
     height: 20px;
+    width: 80%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -151,7 +175,7 @@
     text-decoration: none;
     }
 .login-back div form input{
-    width: 266px;
+    width: 65%;
     height: 40px;
     padding-left: 8px;
     border: 0.5px solid #000000;
@@ -160,13 +184,7 @@
     color: rgba(0, 0, 0, 0.2);
 }
 
-.login-back div form .fa-eye{
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 240px;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.5);
-}
+
 .login-back div form .dropdown button{
     position: absolute;
     width: 56px;
@@ -220,17 +238,7 @@ border-radius: 2px;
         text-align: right;
         width: 65%;
 }
-.login-back div form span a{
-        width: 100%;
-        height: 15px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
-        text-decoration-line: underline;
-        color: rgba(32, 32, 32, 0.5);
-    }
+
     .login-section{
         min-height: 600px;
         position: relative;
@@ -239,25 +247,35 @@ border-radius: 2px;
 
     .shap-login-1{
         position: absolute;
-        width: 231px;
-        height: 231px;
-        right: 0px;
-        top: 208px;
+        width: 201px;
+        height: 201px;
+        right: 15%;
+        top: 238px;
         z-index: -99999;
+        animation: movelogin 1s ease-in-out infinite;
         border-radius: 50%;
         background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
     }
-
+    @keyframes movelogin {
+        0%,100%{
+            transform: scale(1.1);
+        }
+        50%{
+            transform: scale(1);
+        }
+    }
     .shap-login-2{
     position: absolute;
     width: 311px;
     height: 311px;
-    left: 100.69px;
+    left: 1%;
     top: 600px;
     z-index: -11;
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(196, 196, 196, 0.726042) 99.99%, rgba(196, 196, 196, 0) 100%);
     transform: rotate(47.34deg);
+    animation: movelogin 1s ease-in-out infinite;
+
     }
 
     .shap-login-2 img{
@@ -281,331 +299,23 @@ border-radius: 2px;
 
 
 
-    @media screen and (max-width: 500px) {
-        .shap-login-1,
-        .shap-login-2{
-            display: none;
-            position: absolute;
-            width: 151px;
-            height: 151px;
-            left: 20px;
-            top: 158px;
-            z-index: -99999;
-            border-radius: 50%;
-            background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
-        }
-        .login-section{
-            margin-top: 50px;
-            position: relative;
-            width: 300px;
-            left: 50%;
-            top: 0;
-            transform: translateX(-60%);
-            min-height: 500px;
-            /* display: none; */
-        }
-        .login-section .login-back{
-            width: 144px;
-            height: 431px;
-            left: 145px;
-        }
-        .login-section .welcome-our{
-            position: absolute;
-            width: 144px;
-            height: 431px;            
-            left: 1px;
-            background: #E6E6E6;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        .welcome-our div img{
-            width: 115px;
-            height: 191px;
 
-        }
-        .login-back img{
-            width: 33px;
-            height: 33px;
-            margin: 2px 40%;
-        }
-        .login-back h2{
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            color: #000000;
-        }
-        .login-back div span,
-        .login-back div span a{
-            font-size: 8px;
-            width: 1px;
-        }
-    .login-back div form span{
-        font-size: 8px;
-        font-size: 8px;
-    
-        }
-        /* text-align: center; */
-        .login-back div h5{
-            display: none;
-        }
-        .login-back div p{
-            width: 121px;
-            height: 26px;
-            padding: 0;
-            margin-left: -15px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 9px;
-            line-height: 13px;
-            color: #797979;
-        }
-        .login-back div form label{
-            margin-left: -15px;
-            width: 67px;
-            height: 10px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 10px;
-            color: #202020;
-            }
-            .login-back div form input{
-                width: 117px;
-                height: 28px;
-                margin-left: -15px;
-                padding-left: 0;
-                font-size: 10px;
-            }
-            .login-back div form .inputCostum{
-                margin-top: 0px;
-                margin-bottom: 10px;
-                padding-left: 10PX;
-            }
-            .login-back div form .fa-eye{
-                position: absolute;
-                margin-top: 85px;
-                margin-left: 80px;
-                cursor: pointer;
-                color: rgba(0, 0, 0, 0.5);
-            }
-            .login-back div form span a{
-                width: 47px;
-                height: 20px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 10px;
-                line-height: 20px;
-                text-align: center;
-                color: #000000;
-                text-decoration: none;
-                margin-left: -20px;
-                }
 
-                .login-back div form button{
-                    width: 117px;
-                    height: 28px;
-                    margin-left: -15px;
-                }
-                .welcome-our div h5{
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 12px;
-                    line-height: 20px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-                .shap-login-2{
-                    left: 10.69px;
-                    top: 640px;
-                    width: 100px;
-                    height: 100px;
-                    }
-
-                    .shap-login-3 img{
-                        position: absolute;
-                        height: 170px;
-                        left: px;
-                        top: 289px;
-                    }
-
-                    
+    .login-back div form span a{
+        /* width: 100%; */
+        height: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+        text-decoration-line: underline;
+        color: rgba(32, 32, 32, 0.5);
     }
 
 
-    @media (min-width:501px) and (max-width: 950px) {
-        .shap-login-1{
-            position: absolute;
-            width: 231px;
-            height: 231px;
-            right: 0px;
-            top: 138px;
-            z-index: -99999;
-            border-radius: 50%;
-            background: linear-gradient(180deg, #C4C4C4 37.92%, rgba(196, 196, 196, 0) 100%);
-        }
-        .login-section{
-            margin-top: 50px;
-            position: relative;
-            width: 50%;
-            /* left: 10%; */
-            transform: translate(20px,10%);
-            min-height: 400px;
-            margin: 20px auto;
-        }
-        .login-section .login-back{
-            width: 144px;
-            height: 331px;
-            left: 145px;
-        }
-        .login-section .welcome-our{
-            position: absolute;
-            width: 144px;
-            height: 331px;            
-            left: 1px;
-            background: #E6E6E6;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        .welcome-our div img{
-            width: 115px;
-            height: 191px;
-
-        }
-        .login-back img{
-            width: 33px;
-            height: 33px;
-            margin: 2px 40%;
-        }
-        .login-back h2{
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            color: #000000;
-        }
-        .login-back div span,
-        .login-back div span a{
-            font-size: 8px;
-            width: 1px;
-        }
-    .login-back div span{
-        font-size: 8px;
-        width: 10px;
-        text-align: center;
-
-    }
-        .login-back div h5{
-            display: none;
-        }
-        .login-back div p{
-            width: 121px;
-            height: 26px;
-            padding: 0;
-            margin-left: -15px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 9px;
-            line-height: 13px;
-            color: #797979;
-        }
-        .login-back div form label{
-            margin-left: -15px;
-            width: 67px;
-            height: 10px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 10px;
-            color: #202020;
-            }
-            .login-back div form input{
-                width: 117px;
-                height: 28px;
-                margin-left: -15px;
-                padding-left: 0;
-                font-size: 10px;
-            }
-            .login-back div form .inputCostum{
-                margin-top: 0px;
-                margin-bottom: 10px;
-                padding-left: 10PX;
-            }
-            .login-back div form .fa-eye{
-                position: absolute;
-                margin-top: 85px;
-                margin-left: 80px;
-                cursor: pointer;
-                color: rgba(0, 0, 0, 0.5);
-            }
-            .login-back div form span a{
-                width: 47px;
-                height: 20px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 10px;
-                line-height: 20px;
-                text-align: center;
-                color: #000000;
-                text-decoration: none;
-                margin-left: -20px;
-                }
-
-                .login-back div form button{
-                    width: 117px;
-                    height: 28px;
-                    margin-left: -15px;
-                }
-                .welcome-our div h5{
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 12px;
-                    line-height: 20px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-                .shap-login-2{
-                    left: 100.69px;
-                    top: 300px;
-                    }
-
-                    .shap-login-3 img{
-                        position: absolute;
-                        height: 170px;
-                        left: px;
-                        top: 289px;
-                    }
-
-                    
-    }
-
-    @media screen and (max-width: 280px){
-
-        .login-section{
-            margin-top: 50px;
-            position: relative;
-            width: 200px;
-            left: 15px;
-            min-height: 400px;
-            /* margin: 20px auto; */
-        }
-
-    }
-
-
-        @media (min-width: 951px) and (max-width: 1200px) {
+        /* @media (min-width: 951px) and (max-width: 1200px) {
 
         .login-section{
             width: 750px !important;
@@ -630,4 +340,4 @@ border-radius: 2px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
                     
-    }
+    } */

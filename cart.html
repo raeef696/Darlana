@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assest/css/darlana.css">
     <link rel="stylesheet" href="./assest/css/myaccounr.css">
     <link rel="stylesheet" href="assest/css/test.css">
+    <link rel="stylesheet" href="./assest/css/media-query.css">
     <!-- <link rel="stylesheet" href="./assest/css/rtldarlan.css"> -->
 
     <title>DarLana</title>
@@ -23,10 +24,9 @@
 
 <body>
 
-
   <!-- start header about login -->
   <section>
-    <div class="bg-black">
+    <div class="bg-black slide-top">
       <div class="container flex-header">
         <div class="mali-darlana">
           <a href="">darlana2022@gmail.com</a>
@@ -95,24 +95,41 @@
     </aside>
   </div>
   
+  
   <!-- page header -->
   <header>
-    <div class="container">
+    <div class="container slide-top">
       <div class="content-header">
-        <div>
           <div class="logo">
             <img src="assest/imges/Logo.png" alt="">
-          </div>
         </div>
-        <div style="flex-grow: 3;" class="test">
+        <div style="flex-grow: 1;">
           <div class=" heed-logo-ser-icon">
             <form action="">
-              <div class="position-relative">
+              <div class="">
                 <input type="search" placeholder="Search for products, brands and more.........">
                 <input type="button" value="Search">
               </div>
             </form>
           </div>
+
+        </div>
+                  <!-- opne mobil  -->
+                  <div class="opne-mobil-search">
+                    <div class=" heed-logo-ser-icon-mobil">
+                      <form action="">
+                        <div class="">
+                          <input type="search" placeholder="Search for products, brands and more.........">
+                          <input type="button" value="Search">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+        <div class="search-icon">
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <p>search</p>
+          </a>
         </div>
         <div>
           <div class="heart-Wishlist">
@@ -131,11 +148,19 @@
           </div>
         </div>
         <div>
-          <nav class=" navbar navbar-expand-lg navbar-light">
+          <!-- <nav class=" navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-          </nav>
+          </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+
           <div class="menm open-side-menu">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
@@ -145,77 +170,107 @@
     
 
   </header>
-
   <!--start navbar   -->
-
-  <nav class=" navbar navbar-expand-lg navbar-light">
-    <div class="container">
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
       <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><span class="active-nav">Home</span></a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span>
-                  New
-                </span>
+              <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Outlet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Elegant Dresses
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Outlet</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./products.html"><span>Products</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Elegant Dresses</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Abaya</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Clutch bag</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span>
-                  Evening Dresses
-                </span>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Abaya
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Clutch bag
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+                <li><a class="dropdown-item" href="#">wrap around dress</a></li>
+                <li><a class="dropdown-item" href="#">babydoll dress</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><span>About us</span></a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><span>Contact us</span></a>
+              <a class="nav-link" href="#">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><span>Help & Support</span></a>
+              <a class="nav-link" href="#">Help & Support</a>
             </li>
-
           </ul>
         </div>
       </div>
-    </div>
-
-  </nav>
+    </nav>
+  </section>
   <!-- end nav bar -->
-    <!-- start detect location -->
-    <section class="navbreadcrumb ">
-        <div class="container">
-            <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">cart</li>
-                </ol>
-            </nav>
-        </div>
-    </section>
 
 
-    <!-- end detect location -->
+
+
+  <!-- start detect location -->
+  <section class="navbreadcrumb ">
+    <div class="container">
+      <div class="nav-location">
+        <a href="">Home</a><span> / </span>
+        <a href="">cart</a>
+      </div> 
+    </div>
+  </section>
+
+  <!-- end detect location -->
+
+
 
     <section>
       <aside class="customer-info test1 ">
@@ -552,7 +607,14 @@
             </div>
 
         </div>
-
+        <article class="copywite">
+          <div>
+            <p>Powered by Wasltec</p>
+          </div>
+          <div>
+            <p>Copyright © 2022 Darlana Store.</p>
+          </div>
+    </article>
 
     </footer>
     <!-- End Shop Featured Collection -->

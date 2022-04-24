@@ -2,7 +2,7 @@
     display: flex;
 }
 .aside-accounr{
-    width: 234px;
+    width: 20%;
     min-height: 814px;
     background: #FBFBFB;
     border-radius: 2px;
@@ -19,9 +19,11 @@
     padding-bottom: 15px;
     color: #000000;
     padding-top: 10px;
+    margin-left: 10px;
     border-bottom: 0.5px solid #BCBCBC;
 
 }
+
 
 .nav-aside ul a{
     color: #000000;
@@ -30,7 +32,8 @@
     transition: all .43s ease-in-out;
 
 }
-.nav-aside ul a i,img{
+.nav-aside ul a i,
+.nav-aside ul a li img{
     padding: 8px;
 
 }
@@ -240,21 +243,26 @@ border-radius: 50%;
     line-height: 14px;
     color: rgba(0, 0, 0, 0.5);
 }
-.link-order{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.link-order a{
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
+
+
+.nav-pills .nav-link {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    background: 0 0;
+    border: 0;
+    padding: 0;
+    margin: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    border-radius: 0.25rem;
     color: rgba(0, 0, 0, 0.5);
-    margin-right: 25px;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: red;
+    border-bottom: 1px solid rgba(231, 7, 39, 1);
+    background-color: unset;
+    border-radius: 0;
+    padding: 0;
+}
 thead {
     border-bottom: .5px solid rgba(0, 0, 0, 0.2);;
     margin-bottom: 50px;
@@ -281,8 +289,14 @@ table tbody tr {
     height: 34px;
 }
 .img-order-table {
-    padding-right: 60px;
-    padding-left: 20px;
+    width: 200px;
+        font-size: 14px;
+        font-weight: 400;
+
+}
+tbody, td, tfoot, th, thead, tr{
+    font-size: 14px;
+    font-weight: 400;
 }
 .alert-success{
     border-radius: 25px;
@@ -315,11 +329,7 @@ table tbody tr {
 }
 
 
-.link-order .active-order{
-    border-bottom: 1px solid rgba(231, 7, 39, 1);
-    color: rgba(231, 7, 39, 1) !important;
-    font-weight: bold !important;
-}
+
 .table-order .title-details h4{
     font-family: 'Roboto';
     font-style: normal;
@@ -342,17 +352,24 @@ table tbody tr {
     border-top: 0;
 
 }
+
+.flex-box-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 25px; */
+}
 .order-details{
     margin-top: 10px;
 }
 
 .img-details{
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
-.img-details{
-    display: flex;
-}
+
 
 .img-details .master-img-details img{
     width: 79px;
@@ -371,7 +388,6 @@ table tbody tr {
     width: 26px;
     height: 32px;
     border-radius: 2px;
-
 }
 
 .img-details .dis-img-details h6{
@@ -433,7 +449,7 @@ table tbody tr {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    width: 748px;
+    width: 100%;
     color: rgba(0, 0, 0, 0.5);
 }
 .title-order-details .text-details{
@@ -616,18 +632,10 @@ table tbody tr {
 }
 
 
+@media screen and (max-width: 400px) {
 
-@media screen and (max-width: 500px) {
-    .flex-address div input{
-        background: #FFFFFF;
-        border: 1px solid rgba(140, 140, 140, 0.7);
-        box-sizing: border-box;
-        border-radius: 4px;
-        width: 100%;
-        height: 48px;
-        outline: 0;
-        padding: 8px;
-    }
+
+
     .new-address form button{
         width: 100%;
         height: 48px;
@@ -661,32 +669,17 @@ table tbody tr {
 
 
 @media (min-width:500px) and (max-width:668px) {
-.aside-accounr{
-    display: none;
-}
 
 }
 
 @media screen and (max-width: 959px) {
 
-    .aside-accounr{
-        display: none;
-    }
-    .navbaraccount nav{
-        display: flex;
-        
-    }
+
+
     .content-header .navbar{
         width: 20px;
     }
-    .navbaraccount .navbar-collapse{
-        position: absolute;
-        right: 0;
-        top: 40px;
-        width: 180px;
-        background-color: #DDD;
 
-    }
 
 
 }
