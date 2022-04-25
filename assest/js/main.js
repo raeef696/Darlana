@@ -1,58 +1,14 @@
 
 
 
-
 $(document).ready(function () {
-  $(document).ready(function() {
-    var rangeSlider = document.getElementById('slider');
-    var onePointSlider = document.getElementById('slider-2');
-    var moneyFormat = wNumb({
-      decimals: 0,
-      thousand: ',',
-      prefix: '$'
-    });
-    var percentFormat = wNumb({
-      decimals: 0,
-      suffix: '%'
-    });
-    noUiSlider.create(rangeSlider, {
-      start: [20, 50],
-      step: 1,
-      range: {
-        'min': [12.99],
-        'max': [60.99]
-      },
-      format: moneyFormat,
-      connect: true
-    });
-    
-    rangeSlider.noUiSlider.on('update', function(values, handle) {
-      document.getElementById('slider-value-min').innerHTML = values[0];
-      document.getElementById('slider-value-max').innerHTML = values[1];
-      // Do something with the values:
-      console.log(moneyFormat.from(values[0]));
-      console.log(moneyFormat.from(values[1]));
-    });
-    
-    noUiSlider.create(onePointSlider, {
-      start: [25],
-      step: 1,
-      range: {
-        'min': [0],
-        'max': [50]
-      },
-      format: percentFormat,
-      behaviour: 'snap',
-      connect: [true, false],
-    });
-    
-    onePointSlider.noUiSlider.on('update', function(values, handle) {
-      document.getElementById('slider-2-value').innerHTML = values[handle];
-      // Do something with the value:
-      console.log(percentFormat.from(values[handle]));
-    });
-    
-  });
+
+
+
+
+
+
+
           /* page Featured Product */
           $('.search-icon').on('click' ,function (){
             $('.opne-mobil-search').toggle().addClass('opne-mobil-search1');
@@ -131,6 +87,12 @@ $(document).ready(function () {
     slider.parentElement.firstElementChild.firstElementChild.lastElementChild.src=this.src;
   }
   $("#menu img").on("click",changeImg);
+
+          // Toggle icon 
+        document.querySelector(".navbreadcrumb i").onclick = function () {
+          // this.classList.toggle("open");
+          document.querySelector(".sidbar").classList.toggle('open');
+        }
 });
 
 

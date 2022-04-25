@@ -204,6 +204,23 @@
 }
 
 @media screen and (max-width: 767px) {
+    .title-reviews h1{
+        font-size: 14px;
+    }
+    .btn-reviews{
+        width: 140px;
+    }
+    .btn-reviews a{
+        font-size: 10px;
+    }
+    .sort-reviews h6,.sort-reviews button{
+        font-size: 10px;
+    }
+    .language button{
+        font-size: 12px;
+        padding: 5px;
+        line-height: 15px;
+    }
     .opne-mobil-search{
         position: absolute;
         /* background-color: red; */
@@ -604,7 +621,11 @@
     .cart-shopping,
     .menm {
         margin-top: 12px;
+        /* padding: 20px !important; */
     }
+.navbar-toggler-icon{
+    margin-left: 20px;
+}
 
     .heed-logo-ser-icon form input[type="button"] {
         top: 0;
@@ -1513,6 +1534,17 @@
 
 
 @media screen and (max-width: 280px) {
+    .bg-black .flex-header .sign-up-login div a{
+        font-size: 5px;
+        padding: 0;
+        margin: 0;
+    }
+    .language button{
+        font-size: 5px;
+        padding: 0px;
+        line-height: 29px;
+        margin: 0;
+    }
     .heed-logo-ser-icon-mobil form div input[type="search"]{
         border: 0.5px solid rgba(0, 0, 0, 1);
         font-size: 14px;
