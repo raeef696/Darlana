@@ -2115,17 +2115,18 @@ form:valid #debt-amount-slider input:checked + label::before {
     margin: 8px 8px;
     cursor: pointer;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-
+    overflow: hidden;
+    transition: all .22s ease-in-out;
 }
 .color-optin{
     width: 100%;
 }
 .color .colors-list .active-color{
-    border: 2px solid #B8D4FA;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    background: rgba(0, 108, 255, 1);
+border: 2px double #FFFFFF;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+/*
 
 .color .colors-list li:first-child{
     background: rgba(0, 108, 255, 1);
@@ -2298,7 +2299,7 @@ form:valid #debt-amount-slider input:checked + label::before {
 }
 .color .colors-list li:nth-child(55){
     background: rgba(161, 155, 0, 1);
-}
+} */
 
 
 
@@ -2420,18 +2421,21 @@ form:valid #debt-amount-slider input:checked + label::before {
     padding: 0;
     align-items: center;
     justify-items: center;
+    overflow: hidden;
 }
 
 .color-sigle{
     width: 152px;
+    justify-content: space-between;
     align-items: center;
     justify-items: center;
 }
 .color-sigle ul li{
-    color: #FFFFFF;
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 
 }
@@ -2496,30 +2500,10 @@ form:valid #debt-amount-slider input:checked + label::before {
     color: #FFFFFF;
 }
 
-.color-sigle .colors-prodect li:nth-child(1){
-    background: rgb(230, 228, 228);
-    /* border: thick  double #FFFFFF; */
-    box-sizing: border-box;
-    width: 25px;
-    height: 25px;
-}
 
 
-.color-sigle .colors-prodect li:nth-child(2){
-    background: rgba(101, 101, 101, 1);
-}
 
-.color-sigle .colors-prodect li:nth-child(3){
-    background: rgba(0, 0, 0, 1);
-}
 
-.color-sigle .colors-prodect li:nth-child(4){
-    background: rgba(184, 3, 3, 1);
-}
-
-.color-sigle .colors-prodect li:nth-child(5){
-    background: rgba(255, 245, 0, 1);
-}
 .add-cart a {
     text-decoration: none;
 }
@@ -2847,12 +2831,7 @@ form:valid #debt-amount-slider input:checked + label::before {
     transition: all .4s ease-in-out;
 }
 
-.color-cart .list-color-cart li:nth-child(2){
-    background: rgba(184, 3, 3, 1);
-}
-.color-cart .list-color-cart li:nth-child(3){
-    background: rgba(255, 245, 0, 1);
-}
+
 .color-cart .list-color-cart .active-color-cart{
     border: thick  double #FFFFFF;
     box-sizing: border-box;

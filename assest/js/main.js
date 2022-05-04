@@ -95,7 +95,9 @@ $(document).ready(function () {
         }
 });
 
-
+const liList = document.querySelectorAll(".ulElementClas li");
+liList.forEach(li=> li.style.backgroundColor = li.textContent );
+liList.forEach(li=> li.style.color = li.textContent );
 
 
 
