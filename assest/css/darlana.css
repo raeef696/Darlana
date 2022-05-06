@@ -1592,7 +1592,7 @@ margin-right: 30px;
 .Categories{
     background: #F6F7F8;
     border-radius: 2px;
-    height: 301px;
+    min-height: 301px;
     width: 100%;
     transition: all .34s ease
 }
@@ -1993,7 +1993,7 @@ form:valid #debt-amount-slider input:checked + label::before {
 }
 .size div{
     margin: 5px;
-    width: 50px;
+    min-width: 50px;
     background: #FFFFFF;
     border: 0.3px solid #E70727;
     box-sizing: border-box;
