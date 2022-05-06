@@ -2824,10 +2824,10 @@ box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .color-cart .list-color-cart li{
+    overflow: hidden;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #000000;
     cursor: pointer;
     transition: all .4s ease-in-out;
 }
