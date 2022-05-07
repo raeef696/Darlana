@@ -453,6 +453,10 @@
     right: unset;
 
 }
+table tr th, table tbody tr th{
+    padding-right: 0;
+    padding-left: 100px;
+}
 @media screen and (max-width: 767px) {
     /* start contact  */
     .marker-contact ul li{
