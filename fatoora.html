@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            direction: rtl;
+        }
+        .title-logo{
+            margin: auto auto;
+            width: 50%;
+            text-align: center;
+        }
+        .title-logo h2{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .title-logo h1{
+            color: rgb(143, 143, 143);
+        }
+        .contentir{
+            width: 80%;
+            margin: 20px auto;
+            border: .9px solid #DDD;
+        }
+        .content-ditels-order{
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            border-bottom: .9px solid #DDD;
+        }
+        article{
+            padding: 15px;
+        }
+        .content-ditels-order div{
+            width: 50%;
+        }
+        .customer-address p{
+            line-height: 1px;
+            font-weight: 600;
+        }
+        .content-ditels-order1{
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .content-ditels-order1 div{
+            border-bottom: .9px solid #DDD;
+            padding: 15px 0;
+            width: 50%;
+        }
+        h3{
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        .store-address p{
+            line-height: 9px;
+        }
+        .content-payment-method{
+            display: flex;
+            justify-content: space-between;
+        }
+        .content-payment-method div{
+            width: 30%;
+        }
+        .content-payment-method p{
+            line-height: 15px;
+        }
+        .content-payment-method h3{
+            line-height: 1px;
+        }
+        table {
+            margin: 10px 0;
+            border-bottom: 4px solid #DDD;
+        }
+        table tr th{
+            padding: 10px 0px;
+        }
+        .name-prodect p{
+            font-weight: 600;
+            text-align: center;
+            font-size: 20px;
+            padding-right: 30px;
+            line-height: 10px;
+        }
+    </style>
+    <div class="title-logo">
+        <h1>DARLANA</h1>
+        <h1>دارلانــا</h1>
+        <h2>رقم تسجيل ضريبة القيمة المضافة : <span>301276679700003</span></h2>
+    </div>
+
+    <section>
+        <div class="contentir">
+            <article class="content-ditels-order">
+                <div>
+                    <h3>تفاصيل الطلب</h3>
+                    <p>رقم الطلب :  <span>37838576</span></p>
+                </div>
+                <div>
+                    <span>الاحد</span>
+                    <span>1 مايو 2022</span>
+                    <span>|</span>
+                    <span>08:48م</span>
+                </div>
+            </article>
+            <article class="content-ditels-order1">
+                <div class="store-address">
+                    <h3>مصدرة من :</h3>
+                    <p style="font-weight: 600;">المتجر الإلكتروني : <span>دارلانا</span></p>
+                    <p>حي الزهراء , حي الزهراء ,00966 , جدة , السعودية </p>
+                    <span>00966500121542</span>
+                </div>
+                <div class="customer-address">
+                    <h3>مصدرة إلي :</h3>
+                    <p>محمد غسان</p>
+                    <p>السعودية</p>
+                    <p>ابها</p>
+                    <p>حي الريان - 009665333333</p>
+                </div>
+            </article>
+
+            <article style="display: flex; justify-content: space-between;">
+                <div style="width: 50%;">
+                    <h3>تفاصيل الدفع:</h3>
+                    <div class="content-payment-method">
+                        <div>
+                            <p>المبلغ:</p>
+                            <p>طريقة الدفع:</p>
+                        </div>
+                        <div>
+                            <p>368 <span>ر.س</span></p>
+                            <p>البطاقة الائتمانية</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div style="width: 50%;">
+                    <h3>تفاصيل الشحن:</h3>
+                    <div class="content-payment-method">
+                        <div>
+                            <p>بواسطة:</p>
+                            <p>عدد الايام المتوقعة لشحن:</p>
+                        </div>
+                        <div>
+                            <p>شركة سمسا</p>
+                            <p>(5-6 ايام عمل)</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </article>
+
+            <article>
+                <table border="0" style="text-align: center; width: 100%;">
+                    <tr style="background-color: #DDD;">
+                      <th style="width: 60%;">المنتج</th>
+                      <th style="width: 10%;">الكمية</th>
+                      <th style="width: 10%;">السعر</th>
+                      <th style="width: 10%;">المجموع</th>
+                    </tr>
+                    <tr>
+                      <td>
+                          <div style="display: flex;" class="name-prodect">
+                              <img src="" alt="" width="50" height="50">
+                              <p>فستان سهرة 999</p>
+                          </div>
+                      </td>
+                      <td>1</td>
+                      <td>184 ر.س</td>
+                      <td>184 ر.س</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="display: flex;" class="name-prodect">
+                                <img src="" alt="" width="50" height="50">
+                                <p>فستان سهرة 999</p>
+                            </div>
+                        </td>
+                        <td>1</td>
+                        <td>184 ر.س</td>
+                        <td>184 ر.س</td>
+                      </tr>
+                  </table>
+            </article>
+            <article>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border: .9px solid #DDD;">
+                    <div>مجموع السلة</div>
+                    <div>368 <span>ر.س</span></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border: .9px solid #DDD;">
+                    <div>تكلفة الشحن</div>
+                    <div>مجاني</div>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 15px; border: .9px solid #DDD;">
+                    <div>إجمالي الشحن</div>
+                    <div>368 <span>ر.س</span></div>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

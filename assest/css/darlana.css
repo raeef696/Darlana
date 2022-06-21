@@ -465,11 +465,10 @@
 .bg-light{
     background-color: #FFFFFF !important;
 }
-.navbar .container-fluid .navbar-collapse{
-    /* display: flex; */
+.navbar .container-fluid .navbar-collapse .navbar-nav{
+    display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 .navbar-light .navbar-toggler{
     bottom: unset;
