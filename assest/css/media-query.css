@@ -1113,7 +1113,6 @@
 
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* start page order  */    
@@ -1443,7 +1442,6 @@
     }
 }
 
-
 @media (min-width: 992px) and (max-width: 1199px) {
     /* start page order  */
     .title-order-details .order-details{
@@ -1527,11 +1525,6 @@
     
     }
 }
-
-
-
-
-
 
 @media screen and (max-width: 280px) {
     .bg-black .flex-header .sign-up-login div a{
@@ -1970,11 +1963,6 @@
 
     }
 }
-
-
-
-
-
 
 @media (min-width: 411px) and (max-width: 500px){
     .geller .master-img img{
